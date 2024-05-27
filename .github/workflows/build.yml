@@ -3,6 +3,13 @@ name: Build Java with Maven
 on:
    pull_request:
     branches: main
+    
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  actions: read
+  checks: write
 
 jobs:
   build:
