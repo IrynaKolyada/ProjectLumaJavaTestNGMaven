@@ -47,7 +47,6 @@ jobs:
         run: mvn -B package --file pom.xml
 
       - name: Archive test reports
-        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: surefire-reports
