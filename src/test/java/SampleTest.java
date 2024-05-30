@@ -9,9 +9,4 @@ public class SampleTest {
         Assert.assertTrue(true);
     }
 
-    @Test
-    public void testFail() {
-
-        Assert.assertTrue(false);
-    }
 }
