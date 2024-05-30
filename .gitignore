@@ -188,3 +188,6 @@ src/test/resources/local.properties
 .env.test.local
 .env.production.local
 token.txt
+#Allure
+.allure/
+allure-results/
