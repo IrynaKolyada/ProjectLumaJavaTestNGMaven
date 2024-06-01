@@ -22,7 +22,7 @@ jobs:
         
 
     runs-on: ${{ matrix.os }}
-    if: ${{ matrix.os == 'ubuntu-latest' }}
+        
 
     steps:
       - name: Clone code from repo
