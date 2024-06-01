@@ -73,6 +73,11 @@ jobs:
       #     publish_branch: gh-pages
       #     publish_dir: allure-history
 
+      - name: Generate Allure report
+        run: |
+          mkdir -p allure-history
+          allure generate target/allure-results -o allure-history
+        
       - name: Archive test reports
         if: always()
         uses: actions/upload-artifact@v4
@@ -80,8 +85,7 @@ jobs:
           name: surefire-reports
           path: target/allure-results
           overwrite: true
-          ref: gh-pages
-          
+    
 
       # - name: Build test report
       #   uses: simple-elf/allure-report-action@v1.7
