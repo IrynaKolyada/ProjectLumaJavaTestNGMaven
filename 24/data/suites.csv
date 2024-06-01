@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 01 19:48:54 GMT 2024","Sat Jun 01 19:48:54 GMT 2024","12","Surefire suite","Surefire test","SampleTest","SampleTest","testPass","testPass",""
