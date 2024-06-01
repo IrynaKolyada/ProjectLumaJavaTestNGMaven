@@ -49,37 +49,45 @@ jobs:
       - name: Test with Maven
         run: mvn test
 
-      - name: Load test report history
-        uses: actions/checkout@v4
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
-
-      - name: Build test report
-        uses: simple-elf/allure-report-action@v1.7
-        if: always()
-        with:
-          gh_pages: gh-pages
-          allure_history: allure-history
-          allure_results: target/allure-results
-
-      - name: Publish test report
-        uses: peaceiris/actions-gh-pages@v3
-        if: always()
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: allure-history
-
-      # - name: Archive test reports
+      # - name: Load test report history
+      #   uses: actions/checkout@v4
       #   if: always()
-      #   uses: actions/upload-artifact@v4
+      #   continue-on-error: true
       #   with:
-      #     name: surefire-reports
-      #     path: target/surefire-reports
-      #     overwrite: true
+      #     ref: gh-pages
+      #     path: gh-pages
+
+      # - name: Build test report
+      #   uses: simple-elf/allure-report-action@v1.7
+      #   if: always()
+      #   with:
+      #     gh_pages: gh-pages
+      #     allure_history: allure-history
+      #     allure_results: target/allure-results
+
+      # - name: Publish test report
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   if: always()
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_branch: gh-pages
+      #     publish_dir: allure-history
+
+      - name: Archive test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: surefire-reports
+          path: target/surefire-reports
+          overwrite: true
+      
+      - name: Deploy to GitHub Pages
+        if: success() || failure()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         publish_branch: gh-pages
+         publish_dir: allure-history
 
 
   check-java-code-style:
