@@ -19,8 +19,10 @@ jobs:
       max-parallel: 4
       matrix:
         os: [ ubuntu-latest, windows-latest, macos-latest ]
+        
 
     runs-on: ${{ matrix.os }}
+        
 
     steps:
       - name: Clone code from repo
@@ -46,14 +48,32 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
 
-      - name: Archive test reports
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: surefire-reports
-          path: target/surefire-reports
-          overwrite: true
+      - name: Test with Maven
+        run: mvn test
 
+      - name: Load test report history
+        uses: actions/checkout@v4
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Build test report
+        uses: simple-elf/allure-report-action@v1.7
+        if: always() && matrix.os == 'ubuntu-latest'
+        with:
+          gh_pages: gh-pages
+          allure_history: allure-history
+          allure_results: target/allure-results
+
+      - name: Publish test report
+        uses: peaceiris/actions-gh-pages@v3
+        if: always() && matrix.os == 'ubuntu-latest' 
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
 
   check-java-code-style:
     name: Check Java code style
