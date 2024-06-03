@@ -2,7 +2,6 @@ package com.lumatest.base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -42,8 +41,8 @@ public abstract class BaseTest {
     }
 
     public void hoverOverElement(By locator) {
-        WebElement element = driver.findElement(locator);
-        Actions actions = new Actions(driver);
+        WebElement element = getDriver().findElement(locator);
+        Actions actions = new Actions(getDriver());
         actions.moveToElement(element).perform();
     }
 
