@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -15,7 +16,7 @@ public abstract class BaseTest {
 
     @BeforeMethod
     protected void setup() {
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
 
         createChromeDriver();
 
@@ -31,7 +32,9 @@ public abstract class BaseTest {
 
     private void createChromeDriver() {
         if (this.driver == null) {
-            this.driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments( "----window-size=1920,1080", "--remote-allow-origins=*");
+            this.driver = new ChromeDriver(options);
         }
     }
 
