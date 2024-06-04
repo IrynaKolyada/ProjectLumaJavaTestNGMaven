@@ -34,7 +34,7 @@ public abstract class BaseTest {
         if (this.driver == null) {
             ChromeOptions options = new ChromeOptions();
             options.addArguments( "----window-size=1920,1080", "--remote-allow-origins=*");
-            this.driver = new ChromeDriver(options);
+            this.driver = new ChromeDriver();
         }
     }
 
