@@ -16,7 +16,7 @@ public abstract class BaseTest {
 
     @BeforeMethod
     protected void setup() {
-//        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().setup();
 
         createChromeDriver();
 
