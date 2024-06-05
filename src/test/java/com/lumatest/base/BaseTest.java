@@ -7,19 +7,24 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import java.time.Duration;
+
 public abstract class BaseTest {
     private WebDriver driver;
+    private WebDriverWait wait;
 
 
     @BeforeMethod
     protected void setup() {
-        WebDriverManager.chromedriver().setup();
-
         createChromeDriver();
-
+        WebDriverManager.chromedriver().setup();
     }
 
     @AfterMethod(alwaysRun = true)
@@ -32,9 +37,7 @@ public abstract class BaseTest {
 
     private void createChromeDriver() {
         if (this.driver == null) {
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments( "--window-size=1920,1080");
-            this.driver = new ChromeDriver(options);
+            this.driver = new ChromeDriver();
         }
     }
 
@@ -44,9 +47,17 @@ public abstract class BaseTest {
     }
 
     public void hoverOverElement(By locator) {
-        WebElement element = getDriver().findElement(locator);
         Actions actions = new Actions(getDriver());
+        WebElement element =  getWait10().until(ExpectedConditions.visibilityOf(driver.findElement(locator)));
+//        getWait10().until(ExpectedConditions.visibilityOf(element));
         actions.moveToElement(element).perform();
+    }
+
+    protected WebDriverWait getWait10() {
+        if (wait == null) {
+            wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        }
+        return wait;
     }
 
 

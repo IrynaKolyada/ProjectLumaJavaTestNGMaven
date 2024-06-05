@@ -49,10 +49,18 @@ jobs:
 #        run: mvn -B package --file pom.xml
 
       - name: Test with Maven
-        run: mvn test
+        run: mvn -e test
         if: matrix.os == 'ubuntu-latest'
         env:
-          CHROME_OPTIONS: --remote-allow-origins=*;--disable-gpu;--no-sandbox;--disable-dev-shm-usage;--headless;--window-size=1920,1080
+          CHROME_OPTIONS: |
+            --disable-gpu;
+            --no-sandbox;
+            --disable-dev-shm-usage;
+            --headless;
+            --window-size=1920,1080;
+            --disable-web-security;
+            --allow-running-insecure-content;
+            --ignore-certificate-errors
           CI_RUN: true
 
       - name: Load test report history

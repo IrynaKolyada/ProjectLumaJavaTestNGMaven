@@ -56,7 +56,7 @@ public class NavigationTest extends BaseTest {
     @Description("TC-03 testNavigationMenuWomenSection")
     @Severity(SeverityLevel.CRITICAL)
     public void testNavigationMenuWomenSection(
-            String baseUrl, By nameOfLocator, By href, String expectedUrl, String expectedTitle, By header) {
+            String baseUrl, By nameOfLocator, By href, String expectedUrl, String expectedTitle, By header) throws InterruptedException {
          final List<String> expectedHeader = List.of("Tops", "Bottoms");
 
         Allure.step("Open BaseUrl");
