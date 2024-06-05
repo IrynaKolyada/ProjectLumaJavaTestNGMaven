@@ -21,10 +21,12 @@ public class TestData {
             "//a[@href='https://magento.softwaretestingboard.com/women/tops-women.html']");
     public static final String WOMEN_TOPS_URL = BASE_URL + "/women/tops-women.html";
     public static final String WOMEN_TOPS_TITLE = "Tops - Women";
+    public static final By WOMEN_TOPS_HEADER = By.xpath("//h1/span");
     public static final By WOMEN_BOTTOMS_MENU_HREF = By.xpath(
             "//a[@href='https://magento.softwaretestingboard.com/women/bottoms-women.html']");
     public static final String WOMEN_BOTTOMS_URL = BASE_URL + "/women/bottoms-women.html";
     public static final String WOMEN_BOTTOMS_TITLE = "Bottoms - Women";
+    public static final By BOTTOMS_TOPS_HEADER = By.xpath("//h1/span");
     public static final By WOMEN_JACKETS_MENU_HREF = By.xpath(
             "//a[@href='https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html']");//Jackets
     public static final String WOMEN_JACKETS_URL = BASE_URL + "/women/tops-women/jackets-women.html";
@@ -67,8 +69,8 @@ public class TestData {
     public static Object[][] navigationMenuWomenSectionTestDataProvider() {
 
         return new Object[][]{
-                {BASE_URL, WOMEN_MENU, WOMEN_TOPS_MENU_HREF, WOMEN_TOPS_URL, WOMEN_TOPS_TITLE},
-                {BASE_URL, WOMEN_MENU, WOMEN_BOTTOMS_MENU_HREF, WOMEN_BOTTOMS_URL, WOMEN_BOTTOMS_TITLE}
+                {BASE_URL, WOMEN_MENU, WOMEN_TOPS_MENU_HREF, WOMEN_TOPS_URL, WOMEN_TOPS_TITLE, WOMEN_TOPS_HEADER},
+                {BASE_URL, WOMEN_MENU, WOMEN_BOTTOMS_MENU_HREF, WOMEN_BOTTOMS_URL, WOMEN_BOTTOMS_TITLE, BOTTOMS_TOPS_HEADER}
         };
     }
 

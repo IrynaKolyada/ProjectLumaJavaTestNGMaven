@@ -4,9 +4,10 @@ import com.lumatest.base.BaseTest;
 import com.lumatest.data.TestData;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class NavigationTest extends BaseTest {
 
@@ -52,8 +53,11 @@ public class NavigationTest extends BaseTest {
     }
 
     @Test (dataProvider = "navigationMenuWomenSectionData", dataProviderClass = TestData.class)
+    @Description("TC-03 testNavigationMenuWomenSection")
+    @Severity(SeverityLevel.CRITICAL)
     public void testNavigationMenuWomenSection(
-            String baseUrl, By nameOfLocator, By href, String expectedUrl, String expectedTitle) {
+            String baseUrl, By nameOfLocator, By href, String expectedUrl, String expectedTitle, By header) {
+         final List<String> expectedHeader = List.of("Tops", "Bottoms");
 
         Allure.step("Open BaseUrl");
         getDriver().get(baseUrl);
@@ -63,6 +67,7 @@ public class NavigationTest extends BaseTest {
         Allure.step("Collect actualUrl, actualTitle");
         final String actualUrl = getDriver().getCurrentUrl();
         final String actualTitle = getDriver().getTitle();
+        final String actualHeader = getDriver().findElement(header).getText();
 
         Allure.step("Verify actualUrl as expected");
         Assert.assertEquals(actualUrl, expectedUrl);
@@ -71,8 +76,11 @@ public class NavigationTest extends BaseTest {
     }
 
     @Test (dataProvider = "navigationMenuTopsSectionData", dataProviderClass = TestData.class)
+    @Description("TC-03 testNavigationMenuWomenTopsSection")
+    @Severity(SeverityLevel.CRITICAL)
     public void testNavigationMenuWomenTopsSection(
             String baseUrl, By nameOfLocator, By href , By hrefSubMenu, String expectedUrl, String expectedTitle) {
+
         Allure.step("Open BaseUrl");
         getDriver().get(baseUrl);
         hoverOverElement(nameOfLocator);
