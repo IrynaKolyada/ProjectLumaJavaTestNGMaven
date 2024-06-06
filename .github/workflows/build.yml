@@ -51,7 +51,7 @@ jobs:
       - name: Test with Maven
         run: mvn test
 
-      - name: Test Reporter
+      - name: Test Reporte for ${{ matrix.os }}
         uses: dorny/test-reporter@v1.9.1
         if: success() || failure()
         with:
