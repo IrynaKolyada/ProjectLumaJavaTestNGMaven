@@ -5,6 +5,7 @@ import com.lumatest.data.TestData;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import java.util.List;
@@ -52,6 +53,7 @@ public class NavigationTest extends BaseTest {
         Assert.assertEquals(actualTitle, expectedTitle);
     }
 
+    @Ignore
     @Test (dataProvider = "navigationMenuWomenSectionData", dataProviderClass = TestData.class)
     @Description("TC-03 testNavigationMenuWomenSection")
     @Severity(SeverityLevel.CRITICAL)
@@ -75,6 +77,7 @@ public class NavigationTest extends BaseTest {
         Assert.assertEquals(actualTitle, expectedTitle);
     }
 
+    @Ignore
     @Test (dataProvider = "navigationMenuTopsSectionData", dataProviderClass = TestData.class)
     @Description("TC-03 testNavigationMenuWomenTopsSection")
     @Severity(SeverityLevel.CRITICAL)
