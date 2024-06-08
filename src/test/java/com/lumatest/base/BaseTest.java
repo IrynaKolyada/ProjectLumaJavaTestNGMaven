@@ -8,54 +8,59 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
+
 public abstract class BaseTest {
     private WebDriver driver;
-    private WebDriverWait wait;
+//    private final String browser = "firefox";
 
     @BeforeSuite
     protected void setupDriverManager() {
+
         WebDriverManager.chromedriver().setup();
+        WebDriverManager.firefoxdriver().setup();
+
     }
 
+    @Parameters("browser")
     @BeforeMethod
-    protected void setupDriver() {
-        this.driver = DriverUtils.createChromeDriver(getDriver());
+    protected void setupDriver(String browser) {
+        Reporter.log("_____________________________________________", true);
+        this.driver = DriverUtils.createDriver(browser, this.driver);
 
+        if (getDriver() == null) {
+            Reporter.log("ERROR UNKNOWN parameter 'browser'" + browser.toUpperCase() + ".", true);
+
+            System.exit(1);
+        }
+
+        Reporter.log("INFO: " + browser.toUpperCase() + " driver created", true);
     }
 
+    @Parameters("browser")
     @AfterMethod(alwaysRun = true)
-    protected void tearDown() {
-       if(this.driver != null) {
-           getDriver().quit();
-           this.driver = null;
-       }
-    }
+    protected void tearDown(String browser) {
+        if (this.driver != null) {
+            getDriver().quit();
+            Reporter.log("INFO: " + browser.toUpperCase() + " driver closed", true);
 
+            this.driver = null;
+        } else {
+
+            Reporter.log("INFO: Driver is null", true);
+        }
+    }
 
     public WebDriver getDriver() {
 
         return this.driver;
     }
-
-    public void hoverOverElement(By locator) {
-        Actions actions = new Actions(getDriver());
-        WebElement element =  getWait10().until(ExpectedConditions.visibilityOf(driver.findElement(locator)));
-//        getWait10().until(ExpectedConditions.visibilityOf(element));
-        actions.moveToElement(element).perform();
-    }
-
-    protected WebDriverWait getWait10() {
-        if (wait == null) {
-            wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        }
-        return wait;
-    }
-
 
 }

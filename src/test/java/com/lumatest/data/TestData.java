@@ -65,21 +65,5 @@ public class TestData {
         };
     }
 
-    @DataProvider(name = "navigationMenuWomenSectionData")
-    public static Object[][] navigationMenuWomenSectionTestDataProvider() {
-
-        return new Object[][]{
-                {BASE_URL, WOMEN_MENU, WOMEN_TOPS_MENU_HREF, WOMEN_TOPS_URL, WOMEN_TOPS_TITLE, WOMEN_TOPS_HEADER},
-                {BASE_URL, WOMEN_MENU, WOMEN_BOTTOMS_MENU_HREF, WOMEN_BOTTOMS_URL, WOMEN_BOTTOMS_TITLE, BOTTOMS_TOPS_HEADER}
-        };
-    }
-
-    @DataProvider(name = "navigationMenuTopsSectionData")
-    public static Object[][] navigationMenuTopsSectionTestDataProvider() {
-
-        return new Object[][]{
-                {BASE_URL, WOMEN_MENU, WOMEN_TOPS_MENU_HREF, WOMEN_JACKETS_MENU_HREF, WOMEN_JACKETS_URL, WOMEN_JACKETS_TITLE }
-        };
-    }
 
 }

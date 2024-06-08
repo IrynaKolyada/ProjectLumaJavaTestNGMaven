@@ -15,7 +15,7 @@ public class NavigationTest extends BaseTest {
     @Test(description = "TC-01 Open Base Url")
     @Story("Navigation")
     @Severity(SeverityLevel.BLOCKER)
-    @Description("TC-01 Open Base Url")
+    @Description("verify that the URL and Title of the application are correct and as expected")
     @Link(TestData.BASE_URL)
     public void testOpenBaseUrl() {
         Allure.step("Setup expected results");
@@ -34,61 +34,15 @@ public class NavigationTest extends BaseTest {
         Assert.assertEquals(actualTitle, expectedTitle);
     }
 
-    @Test(dataProvider = "navigationMenuData", dataProviderClass = TestData.class)
-    @Description("TC-02 testTopNavigationMenu")
+    @Test(dataProvider = "navigationMenuData",  dataProviderClass = TestData.class)
     @Severity(SeverityLevel.CRITICAL)
+    @Description("verify that the top menu navigation on website functions correctly by ensuring that"
+            + "clicking on menu items directs the user on correct page")
     public void testNavigationMenu(String baseUrl, By nameOfLocator, String expectedUrl, String expectedTitle) {
 
         Allure.step("Open BaseUrl");
         getDriver().get(baseUrl);
         getDriver().findElement(nameOfLocator).click();
-
-        Allure.step("Collect actualUrl, actualTitle");
-        final String actualUrl = getDriver().getCurrentUrl();
-        final String actualTitle = getDriver().getTitle();
-
-        Allure.step("Verify actualUrl as expected");
-        Assert.assertEquals(actualUrl, expectedUrl);
-        Allure.step("Collect actualTitle as expected");
-        Assert.assertEquals(actualTitle, expectedTitle);
-    }
-
-    @Ignore
-    @Test (dataProvider = "navigationMenuWomenSectionData", dataProviderClass = TestData.class)
-    @Description("TC-03 testNavigationMenuWomenSection")
-    @Severity(SeverityLevel.CRITICAL)
-    public void testNavigationMenuWomenSection(
-            String baseUrl, By nameOfLocator, By href, String expectedUrl, String expectedTitle, By header) throws InterruptedException {
-         final List<String> expectedHeader = List.of("Tops", "Bottoms");
-
-        Allure.step("Open BaseUrl");
-        getDriver().get(baseUrl);
-        hoverOverElement(nameOfLocator);
-        getDriver().findElement(href).click();
-
-        Allure.step("Collect actualUrl, actualTitle");
-        final String actualUrl = getDriver().getCurrentUrl();
-        final String actualTitle = getDriver().getTitle();
-        final String actualHeader = getDriver().findElement(header).getText();
-
-        Allure.step("Verify actualUrl as expected");
-        Assert.assertEquals(actualUrl, expectedUrl);
-        Allure.step("Collect actualTitle as expected");
-        Assert.assertEquals(actualTitle, expectedTitle);
-    }
-
-    @Ignore
-    @Test (dataProvider = "navigationMenuTopsSectionData", dataProviderClass = TestData.class)
-    @Description("TC-03 testNavigationMenuWomenTopsSection")
-    @Severity(SeverityLevel.CRITICAL)
-    public void testNavigationMenuWomenTopsSection(
-            String baseUrl, By nameOfLocator, By href , By hrefSubMenu, String expectedUrl, String expectedTitle) {
-
-        Allure.step("Open BaseUrl");
-        getDriver().get(baseUrl);
-        hoverOverElement(nameOfLocator);
-        hoverOverElement(href);
-        getDriver().findElement(hrefSubMenu).click();
 
         Allure.step("Collect actualUrl, actualTitle");
         final String actualUrl = getDriver().getCurrentUrl();
