@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="CrossBrowser Test Suite" >
+<suite name="CrossBrowser Test Suite" parallel="methods" thread-count="2">
     <test name="ChromeBrowser" verbose="2" preserve-order="true" >
-<!--          name="C:/Users/Irina/Desktop/New Project/ProjectLuma/src/test/java/com/lumatest/test/NavigationTest.java">-->
         <parameter name="browser" value="chrome" />
         <classes>
             <class name="com.lumatest.test.NavigationTest">
-<!--                <methods>-->
-<!--                    <include name="testNavigationMenuWomenSection"/>-->
-<!--                    <include name="testNavigationMenuWomenTopsSection"/>-->
-<!--                </methods>-->
             </class>
         </classes>
     </test>
 
     <test name="FireFoxBrowser" verbose="2" preserve-order="true" >
-<!--          name="C:/Users/Irina/Desktop/New Project/ProjectLuma/src/test/java/com/lumatest/test/NavigationTest.java">-->
         <parameter name="browser" value="firefox" />
         <classes>
             <class name="com.lumatest.test.NavigationTest">
-<!--                <methods>-->
-<!--                    <include name="testNavigationMenuWomenSection"/>-->
-<!--                    <include name="testNavigationMenuWomenTopsSection"/>-->
-<!--                </methods>-->
             </class>
         </classes>
     </test>

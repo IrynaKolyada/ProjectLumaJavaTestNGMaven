@@ -9,25 +9,22 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 import java.time.Duration;
 
 
 public abstract class BaseTest {
     private WebDriver driver;
-//    private final String browser = "firefox";
+
 
     @BeforeSuite
-    protected void setupDriverManager() {
-
+    protected void setupDriverManager( ) {
         WebDriverManager.chromedriver().setup();
         WebDriverManager.firefoxdriver().setup();
 
     }
+
 
     @Parameters("browser")
     @BeforeMethod
