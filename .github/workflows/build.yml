@@ -37,9 +37,6 @@ jobs:
           distribution: 'corretto'
           cache: maven
 
-      - name: Install Firefox
-        run: sudo apt-get install -y firefox
-
       - name: Cache m2 dependencies
         uses: actions/cache@v4
         with:
