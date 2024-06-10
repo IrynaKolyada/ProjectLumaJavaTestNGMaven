@@ -20,7 +20,7 @@ public abstract class BaseTest {
      protected void setupDriverManager() {
          WebDriverManager.chromedriver().setup();
 
-         WebDriverManager.firefoxdriver().setup();
+//         WebDriverManager.firefoxdriver().setup();
 
      }
 

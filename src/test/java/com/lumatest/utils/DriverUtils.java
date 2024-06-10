@@ -3,16 +3,17 @@ package com.lumatest.utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.chromium.ChromiumOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxDriverLogLevel;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
+
 
 import java.util.Map;
 
 public class DriverUtils {
     private static final ChromeOptions chromeOptions;
     private static final FirefoxOptions firefoxOptions;
+    private static final ChromiumOptions<ChromeOptions> chromiumOptions;
 
     static {
         chromeOptions = new ChromeOptions();
@@ -37,6 +38,8 @@ public class DriverUtils {
         firefoxOptions.addArguments("--disable-web-security");
         firefoxOptions.addArguments("--allow-running-insecure-content");
         firefoxOptions.addArguments("--ignore-certificate-errors");
+
+        chromiumOptions = chromeOptions;
     }
 
     private static WebDriver createChromeDriver(WebDriver driver) {
@@ -57,16 +60,21 @@ public class DriverUtils {
             driver.quit();
         }
 
-//        FirefoxDriver firefoxDriver = new FirefoxDriver(firefoxOptions);
-//        FirefoxProfile profile = new FirefoxProfile();
-//        profile.setPreference("intl.accept_languages", "en-US,en;;q=0.9");
-
-//        firefoxDriver.executeCdpCommand("Network.enable", Map.of());
-//        firefoxDriver.executeCdpCommand(
-//                "Network.setExtraHTTPHeaders", Map.of("headers", Map.of("accept-language", "en-US,en;q=0.9")));
-
         return new FirefoxDriver(firefoxOptions);
 
+    }
+
+    private static WebDriver createChromiumDriver(WebDriver driver) {
+        if (driver != null) {
+            driver.quit();
+        }
+        ChromeDriver chromeDriver = new ChromeDriver((ChromeOptions) chromiumOptions);
+        chromeDriver.executeCdpCommand("Network.enable", Map.of());
+        chromeDriver.executeCdpCommand(
+                "Network.setExtraHTTPHeaders", Map.of("headers", Map.of("accept-language", "en-US,en;q=0.9"))
+        );
+
+        return chromeDriver ;
     }
 
     public static WebDriver createDriver(String browser, WebDriver driver) {
@@ -76,6 +84,9 @@ public class DriverUtils {
             }
             case "firefox" -> {
                 return createFireFoxDRiver(driver);
+            }
+            case "chromium" -> {
+                return createChromiumDriver(driver);
             }
             default -> {
 
