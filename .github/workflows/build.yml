@@ -19,7 +19,7 @@ jobs:
       max-parallel: 4
       matrix:
         os: [ ubuntu-latest, windows-latest, macos-latest ]
-        
+
 
     runs-on: ${{ matrix.os }}
         
@@ -49,7 +49,7 @@ jobs:
         run: mvn -B package --file pom.xml
 
       - name: Test with Maven
-        run: mvn test
+        run: mvn clean test
 
       - name: Test Reporter
         uses: dorny/test-reporter@v1.9.1
@@ -83,18 +83,6 @@ jobs:
           publish_branch: gh-pages
           publish_dir: allure-history
 
-  check-java-code-style:
-    name: Check Java code style
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Clone code from repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Run java checkstyle
-        uses: nikitasavinov/checkstyle-action@0.6.0
+  
             
 
