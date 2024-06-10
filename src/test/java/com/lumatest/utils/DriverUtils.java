@@ -57,18 +57,15 @@ public class DriverUtils {
             driver.quit();
         }
 
-        FirefoxDriver firefoxDriver = new FirefoxDriver(firefoxOptions);
-        FirefoxProfile profile = new FirefoxProfile();
-        profile.setPreference("intl.accept_languages", "en-US,en;;q=0.9");
+//        FirefoxDriver firefoxDriver = new FirefoxDriver(firefoxOptions);
+//        FirefoxProfile profile = new FirefoxProfile();
+//        profile.setPreference("intl.accept_languages", "en-US,en;;q=0.9");
 
-//        FirefoxOptions options = new FirefoxOptions();
-//        options.setProfile(profile);
-//        options.setLogLevel(FirefoxDriverLogLevel.TRACE);
 //        firefoxDriver.executeCdpCommand("Network.enable", Map.of());
 //        firefoxDriver.executeCdpCommand(
 //                "Network.setExtraHTTPHeaders", Map.of("headers", Map.of("accept-language", "en-US,en;q=0.9")));
 
-        return firefoxDriver;
+        return new FirefoxDriver(firefoxOptions);
 
     }
 
