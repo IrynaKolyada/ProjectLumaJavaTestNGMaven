@@ -19,6 +19,7 @@ jobs:
       max-parallel: 4
       matrix:
         os: [ ubuntu-latest, windows-latest, macos-latest ]
+        browser: [chrome, firefox]
         
 
     runs-on: ${{ matrix.os }}
