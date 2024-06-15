@@ -3,35 +3,35 @@ package com.lumatest.base;
 import com.lumatest.utils.DriverUtils;
 import com.lumatest.utils.ReportUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.*;
 
-import java.time.Duration;
-
 
 public abstract class BaseTest {
     private WebDriver driver;
-
+    private final ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<>();
 
     @BeforeSuite
      protected void setupDriverManager() {
          WebDriverManager.chromedriver().setup();
 
-//         WebDriverManager.firefoxdriver().setup();
-
+         WebDriverManager.firefoxdriver().setup();
      }
-
 
     @Parameters("browser")
     @BeforeMethod
-    protected void setupDriver(@Optional("chrome") String browser, ITestResult result) {
+    protected void setupDriver(@Optional("chrome") String browser, ITestContext context, ITestResult result) {
         Reporter.log("_____________________________________________", true);
-        Reporter.log("RUN" + " - " + result.getMethod().getMethodName(), true);
 
         this.driver = DriverUtils.createDriver(browser, this.driver);
+        this.threadLocalDriver.set(this.driver);
+
+        Reporter.log("Test Thread ID: " + Thread.currentThread().getId(), true);
+        Reporter.log("TEST SUIT: " + context.getCurrentXmlTest().getSuite().getName(), true);
+        Reporter.log("RUN " + result.getMethod().getMethodName(), true);
 
         if (getDriver() == null) {
             Reporter.log("ERROR UNKNOWN parameter 'browser'" + browser.toUpperCase() + ".", true);
@@ -46,20 +46,23 @@ public abstract class BaseTest {
     @AfterMethod(alwaysRun = true)
     protected void tearDown(@Optional("chrome") String browser, ITestResult result) {
         Reporter.log(" - " + result.getMethod().getMethodName() + " :" + ReportUtils.getTestStatus(result), true);
-        if (this.driver != null) {
+
+        if (getDriver() != null) {
             getDriver().quit();
-            Reporter.log("INFO: " + browser.toUpperCase() + " driver closed", true);
+            Reporter.log("INFO: " + browser.toUpperCase() + " driver closed.", true);
 
-            this.driver = null;
+            Reporter.log("After Test Thread ID: " + Thread.currentThread().getId(), true);
+            threadLocalDriver.remove();
+
+            driver = null;
+
         } else {
-
-            Reporter.log("INFO: Driver is null", true);
+            Reporter.log("INFO: Driver is null.", true);
         }
     }
 
-    public WebDriver getDriver() {
-
-        return this.driver;
+    protected WebDriver getDriver() {
+        return threadLocalDriver.get();
     }
 
 }
