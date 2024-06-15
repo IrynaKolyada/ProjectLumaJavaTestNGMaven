@@ -4,7 +4,8 @@
     <test name="ChromeBrowser" verbose="10"  >
         <parameter name="browser" value="chrome" />
         <classes>
-            <class name="com.lumatest.test.NavigationTest">
+            <class name="com.lumatest.test.NavigationTest"/>
+            <class name="com.lumatest.test.PoductPageTest">
             </class>
         </classes>
     </test>
@@ -12,7 +13,8 @@
     <test name="ChromiumBrowser" verbose="10"  >
         <parameter name="browser" value="chromium" />
         <classes>
-            <class name="com.lumatest.test.NavigationTest">
+            <class name="com.lumatest.test.NavigationTest" />
+            <class name="com.lumatest.test.PoductPageTest">
             </class>
         </classes>
     </test>
