@@ -8,7 +8,7 @@ import io.qameta.allure.Allure;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class PoductPageTest extends BaseTest {
+public class ProductPageTest extends BaseTest {
     @Test
     public void testProductDrivenBackPack() {
         Allure.step("Open Base Url");
