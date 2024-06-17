@@ -12,7 +12,7 @@ import java.util.List;
 
 public class NavigationTest extends BaseTest {
 
-    @Test(description = "TC-01 Open Base Url", groups = {"Smoke", "Regression"}, testName = "Navigation | Open Base URL")
+    @Test(description = "TC-01 Open Base Url", groups = {"smoke", "regression"}, testName = "Navigation | Open Base URL")
     @Story("Navigation")
     @Severity(SeverityLevel.BLOCKER)
     @Description("verify that the URL and Title of the application are correct and as expected")

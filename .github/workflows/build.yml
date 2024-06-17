@@ -46,10 +46,19 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Build with Maven
+        if: ${{ matrix.os == 'ubuntu-latest' }}
+        run: mvn clean -e install -Dmaven.test.skip=true
+
+      - name: Cross Browser Testing
+        if: ${{ matrix.os == 'ubuntu-latest' }}
+        run: mvn test -Dsurefire.suiteXmlFiles=xmlSuits/crossBrowser.xml
+
+      - name: Build and Test with Maven
+        if: ${{ matrix.os != 'ubuntu-latest' }}
         run: mvn -B package --file pom.xml
 
-      - name: Test with Maven
-        run: mvn clean test
+#      - name: Test with Maven
+#        run: mvn test
 
       - name: Test Reporter
         uses: dorny/test-reporter@v1.9.1
