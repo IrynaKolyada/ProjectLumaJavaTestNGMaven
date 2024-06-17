@@ -38,7 +38,6 @@ ProjectLumaJavaTestNGMavenAllure
 <pre>
 <code>
 https://github.com/IrynaKolyada/ProjectLumaJavaTestNGMaven.git
-cd LumaJavaTestNGMaven
 </code>
 </pre>
 </li>
