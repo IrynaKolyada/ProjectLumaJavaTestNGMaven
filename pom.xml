@@ -73,6 +73,7 @@
                         <suiteXmlFile>xmlSuits/regression.xml</suiteXmlFile>
                         <suiteXmlFile>xmlSuits/chrome.xml</suiteXmlFile>
                         <suiteXmlFile>xmlSuits/chromium.xml</suiteXmlFile>
+                        <suiteXmlFile>xmlSuits/smoke.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
