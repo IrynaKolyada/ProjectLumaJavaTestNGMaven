@@ -5,10 +5,7 @@ import com.lumatest.data.TestData;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
-
-import java.util.List;
 
 public class NavigationTest extends BaseTest {
 
