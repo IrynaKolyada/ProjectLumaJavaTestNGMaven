@@ -7,7 +7,6 @@ import org.openqa.selenium.chromium.ChromiumOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
-
 import java.util.Map;
 
 public class DriverUtils {
@@ -35,9 +34,6 @@ public class DriverUtils {
         firefoxOptions.addArguments("--disable-gpu");
         firefoxOptions.addArguments("--no-sandbox");
         firefoxOptions.addArguments("--disable-dev-shm-usage");
-//        firefoxOptions.addArguments("--disable-web-security");
-//        firefoxOptions.addArguments("--allow-running-insecure-content");
-//        firefoxOptions.addArguments("--ignore-certificate-errors");
 
         chromiumOptions = chromeOptions;
     }
@@ -74,7 +70,7 @@ public class DriverUtils {
                 "Network.setExtraHTTPHeaders", Map.of("headers", Map.of("accept-language", "en-US,en;q=0.9"))
         );
 
-        return chromeDriver ;
+        return chromeDriver;
     }
 
     public static WebDriver createDriver(String browser, WebDriver driver) {
@@ -94,6 +90,5 @@ public class DriverUtils {
             }
         }
     }
-
 }
 
