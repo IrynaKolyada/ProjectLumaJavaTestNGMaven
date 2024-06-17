@@ -22,12 +22,12 @@ public abstract class BaseTest {
      }
 
     @Parameters("browser")
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     protected void setupDriver(@Optional("chrome") String browser, ITestContext context, ITestResult result) {
         Reporter.log("_____________________________________________", true);
 
         this.driver = DriverUtils.createDriver(browser, this.driver);
-        this.threadLocalDriver.set(this.driver);
+        this.threadLocalDriver.set(driver);
 
         Reporter.log("Test Thread ID: " + Thread.currentThread().getId(), true);
         Reporter.log("TEST SUIT: " + context.getCurrentXmlTest().getSuite().getName(), true);
