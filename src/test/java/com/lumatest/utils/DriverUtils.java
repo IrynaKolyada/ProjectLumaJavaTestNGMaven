@@ -8,7 +8,11 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.CapabilityType;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class DriverUtils {
@@ -47,7 +51,6 @@ public class DriverUtils {
         edgeOptions.addArguments("--disable-gpu");
         edgeOptions.addArguments("--no-sandbox");
         edgeOptions.addArguments("--disable-dev-shm-usage");
-
     }
 
     private static WebDriver createChromeDriver(WebDriver driver) {
@@ -69,7 +72,6 @@ public class DriverUtils {
         }
 
         return new FirefoxDriver(firefoxOptions);
-
     }
 
     private static WebDriver createChromiumDriver(WebDriver driver) {
@@ -90,8 +92,20 @@ public class DriverUtils {
             driver.quit();
         }
 
-        return new EdgeDriver(edgeOptions);
+//        EdgeOptions options = new EdgeOptions();
+//        options.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
+//        List<String> args = Arrays.asList("use-fake-ui-for-media-stream", "use-fake-device-for-media-stream");
+//        Map<String, Object> map = new HashMap<>();
+//        map.put("args", args);
+//        options.setCapability("ms:edgeOptions", map);
 
+        EdgeDriver edgeDriver = new EdgeDriver(edgeOptions);
+        edgeDriver.executeCdpCommand("Network.enable", Map.of());
+        edgeDriver.executeCdpCommand(
+                "Network.setExtraHTTPHeaders", Map.of("headers", Map.of("accept-language", "en-US,en;q=0.9"))
+        );
+
+        return new EdgeDriver(edgeOptions);
     }
 
     public static WebDriver createDriver(String browser, WebDriver driver) {
