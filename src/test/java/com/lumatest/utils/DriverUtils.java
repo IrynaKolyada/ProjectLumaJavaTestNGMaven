@@ -4,22 +4,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.chromium.ChromiumOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.CapabilityType;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class DriverUtils {
     private static final ChromeOptions chromeOptions;
     private static final FirefoxOptions firefoxOptions;
     private static final ChromiumOptions<ChromeOptions> chromiumOptions;
-    private static final EdgeOptions edgeOptions;
+    private static final ChromiumOptions<ChromeOptions> edgeOptions;
 
     static {
         chromeOptions = new ChromeOptions();
@@ -44,13 +38,7 @@ public class DriverUtils {
 
         chromiumOptions = chromeOptions;
 
-        edgeOptions = new EdgeOptions();
-        edgeOptions.addArguments("--incognito");
-        edgeOptions.addArguments("--headless");
-        edgeOptions.addArguments("--window-size=1920,1080");
-        edgeOptions.addArguments("--disable-gpu");
-        edgeOptions.addArguments("--no-sandbox");
-        edgeOptions.addArguments("--disable-dev-shm-usage");
+        edgeOptions = chromeOptions;
     }
 
     private static WebDriver createChromeDriver(WebDriver driver) {
@@ -92,20 +80,13 @@ public class DriverUtils {
             driver.quit();
         }
 
-//        EdgeOptions options = new EdgeOptions();
-//        options.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
-//        List<String> args = Arrays.asList("use-fake-ui-for-media-stream", "use-fake-device-for-media-stream");
-//        Map<String, Object> map = new HashMap<>();
-//        map.put("args", args);
-//        options.setCapability("ms:edgeOptions", map);
-
-        EdgeDriver edgeDriver = new EdgeDriver(edgeOptions);
-        edgeDriver.executeCdpCommand("Network.enable", Map.of());
-        edgeDriver.executeCdpCommand(
+        ChromeDriver chromeDriver = new ChromeDriver((ChromeOptions) edgeOptions);
+        chromeDriver.executeCdpCommand("Network.enable", Map.of());
+        chromeDriver.executeCdpCommand(
                 "Network.setExtraHTTPHeaders", Map.of("headers", Map.of("accept-language", "en-US,en;q=0.9"))
         );
 
-        return new EdgeDriver(edgeOptions);
+        return chromeDriver;
     }
 
     public static WebDriver createDriver(String browser, WebDriver driver) {
