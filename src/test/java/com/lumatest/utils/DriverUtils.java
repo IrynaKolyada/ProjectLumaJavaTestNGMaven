@@ -13,6 +13,7 @@ public class DriverUtils {
     private static final ChromeOptions chromeOptions;
     private static final FirefoxOptions firefoxOptions;
     private static final ChromiumOptions<ChromeOptions> chromiumOptions;
+    private static final ChromiumOptions<ChromeOptions> edgeOptions;
 
     static {
         chromeOptions = new ChromeOptions();
@@ -36,6 +37,8 @@ public class DriverUtils {
         firefoxOptions.addArguments("--disable-dev-shm-usage");
 
         chromiumOptions = chromeOptions;
+
+        edgeOptions = chromeOptions;
     }
 
     private static WebDriver createChromeDriver(WebDriver driver) {
@@ -57,7 +60,6 @@ public class DriverUtils {
         }
 
         return new FirefoxDriver(firefoxOptions);
-
     }
 
     private static WebDriver createChromiumDriver(WebDriver driver) {
@@ -65,6 +67,20 @@ public class DriverUtils {
             driver.quit();
         }
         ChromeDriver chromeDriver = new ChromeDriver((ChromeOptions) chromiumOptions);
+        chromeDriver.executeCdpCommand("Network.enable", Map.of());
+        chromeDriver.executeCdpCommand(
+                "Network.setExtraHTTPHeaders", Map.of("headers", Map.of("accept-language", "en-US,en;q=0.9"))
+        );
+
+        return chromeDriver;
+    }
+
+    private static WebDriver createEdgeRiver(WebDriver driver) {
+        if (driver != null) {
+            driver.quit();
+        }
+
+        ChromeDriver chromeDriver = new ChromeDriver((ChromeOptions) edgeOptions);
         chromeDriver.executeCdpCommand("Network.enable", Map.of());
         chromeDriver.executeCdpCommand(
                 "Network.setExtraHTTPHeaders", Map.of("headers", Map.of("accept-language", "en-US,en;q=0.9"))
@@ -83,6 +99,9 @@ public class DriverUtils {
             }
             case "chromium" -> {
                 return createChromiumDriver(driver);
+            }
+            case "edge" -> {
+                return createEdgeRiver(driver);
             }
             default -> {
 
