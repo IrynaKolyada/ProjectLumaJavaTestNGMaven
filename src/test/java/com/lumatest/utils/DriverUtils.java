@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.chromium.ChromiumOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
@@ -13,6 +15,7 @@ public class DriverUtils {
     private static final ChromeOptions chromeOptions;
     private static final FirefoxOptions firefoxOptions;
     private static final ChromiumOptions<ChromeOptions> chromiumOptions;
+    private static final EdgeOptions edgeOptions;
 
     static {
         chromeOptions = new ChromeOptions();
@@ -36,6 +39,15 @@ public class DriverUtils {
         firefoxOptions.addArguments("--disable-dev-shm-usage");
 
         chromiumOptions = chromeOptions;
+
+        edgeOptions = new EdgeOptions();
+        edgeOptions.addArguments("--incognito");
+        edgeOptions.addArguments("--headless");
+        edgeOptions.addArguments("--window-size=1920,1080");
+        edgeOptions.addArguments("--disable-gpu");
+        edgeOptions.addArguments("--no-sandbox");
+        edgeOptions.addArguments("--disable-dev-shm-usage");
+
     }
 
     private static WebDriver createChromeDriver(WebDriver driver) {
@@ -73,6 +85,15 @@ public class DriverUtils {
         return chromeDriver;
     }
 
+    private static WebDriver createEdgeRiver(WebDriver driver) {
+        if (driver != null) {
+            driver.quit();
+        }
+
+        return new EdgeDriver(edgeOptions);
+
+    }
+
     public static WebDriver createDriver(String browser, WebDriver driver) {
         switch (browser) {
             case "chrome" -> {
@@ -83,6 +104,9 @@ public class DriverUtils {
             }
             case "chromium" -> {
                 return createChromiumDriver(driver);
+            }
+            case "edge" -> {
+                return createEdgeRiver(driver);
             }
             default -> {
 
