@@ -24,4 +24,11 @@
             <class name="com.lumatest.test.ProductPageTest"/>
         </classes>
     </test>
+
+    <test name = "EdgeTest" verbose="10">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.lumatest.test.ProductPageTest"/>
+        </classes>
+    </test>
 </suite>
