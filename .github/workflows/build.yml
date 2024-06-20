@@ -103,7 +103,7 @@ jobs:
       - name: Build Allure test report (Windows)
         run: |
           curl -o allure-commandline.zip -L "https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.8/allure-commandline-2.13.8.zip"
-          tar -xf allure-commandline.zip -C .
+          Expand-Archive -Path allure-commandline.zip -DestinationPath .
           $env:PATH = "$PWD\allure-2.13.8\bin;$env:PATH"
           allure generate target/allure-results --clean -o allure-history
         if: always() && matrix.os == 'windows-latest'
