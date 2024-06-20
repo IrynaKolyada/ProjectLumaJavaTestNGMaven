@@ -2,6 +2,7 @@ package com.lumatest.test;
 
 import com.lumatest.base.BaseTest;
 import com.lumatest.data.TestData;
+
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -31,10 +32,17 @@ public class NavigationTest extends BaseTest {
         Assert.assertEquals(actualTitle, expectedTitle);
     }
 
-    @Test(dataProvider = "navigationMenuData",  dataProviderClass = TestData.class)
+    @Test(
+            groups = {"smoke"},
+            description = "TC-02 Top Menu Navigation",
+            dataProvider = "navigationMenuData",
+            dataProviderClass = TestData.class,
+            testName = "NAVIGATION | Navigate to top menus"
+    )
     @Severity(SeverityLevel.CRITICAL)
     @Description("verify that the top menu navigation on website functions correctly by ensuring that"
             + "clicking on menu items directs the user on correct page")
+    @Link(TestData.BASE_URL)
     public void testNavigationMenu(String baseUrl, By nameOfLocator, String expectedUrl, String expectedTitle) {
 
         Allure.step("Open BaseUrl");
@@ -50,6 +58,4 @@ public class NavigationTest extends BaseTest {
         Allure.step("Collect actualTitle as expected");
         Assert.assertEquals(actualTitle, expectedTitle);
     }
-
-
 }
