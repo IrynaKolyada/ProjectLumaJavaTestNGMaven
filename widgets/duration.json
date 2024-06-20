@@ -1,1 +1,241 @@
-[ ]
+[ {
+  "uid" : "ccda745758b46e8e",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925500921,
+    "stop" : 1718925502538,
+    "duration" : 1617
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ce076d00c14a28e2",
+  "name" : "TC-01 Open Base Url",
+  "time" : {
+    "start" : 1718925488310,
+    "stop" : 1718925489322,
+    "duration" : 1012
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a4eec71af2e91559",
+  "name" : "TC-03 Verify Product Details on Product Page",
+  "time" : {
+    "start" : 1718925504805,
+    "stop" : 1718925508193,
+    "duration" : 3388
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed7ce08eb603c78e",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925460364,
+    "stop" : 1718925462113,
+    "duration" : 1749
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3b3139a605809919",
+  "name" : "TC-03 Verify Product Details on Product Page",
+  "time" : {
+    "start" : 1718925451622,
+    "stop" : 1718925455130,
+    "duration" : 3508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "395a9f30365baab7",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925479564,
+    "stop" : 1718925481151,
+    "duration" : 1587
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9d7bec56213b5788",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925455764,
+    "stop" : 1718925457436,
+    "duration" : 1672
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "200fecd5f43072fc",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925481895,
+    "stop" : 1718925483411,
+    "duration" : 1516
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c8a76ddb4a448d31",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925492057,
+    "stop" : 1718925493623,
+    "duration" : 1566
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e362f80c07a00ac2",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925494252,
+    "stop" : 1718925495985,
+    "duration" : 1733
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6609672466e35a54",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925496554,
+    "stop" : 1718925498120,
+    "duration" : 1566
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f2c3df01815fc30a",
+  "name" : "TC-03 Verify Product Details on Product Page",
+  "time" : {
+    "start" : 1718925471082,
+    "stop" : 1718925474558,
+    "duration" : 3476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7815bcb5e365f30c",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925498744,
+    "stop" : 1718925500348,
+    "duration" : 1604
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1ba03d6c683ad463",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925475105,
+    "stop" : 1718925476840,
+    "duration" : 1735
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6e59e4f966d89b7b",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925477405,
+    "stop" : 1718925478975,
+    "duration" : 1570
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "83998892abdc7e9c",
+  "name" : "TC-01 Open Base Url",
+  "time" : {
+    "start" : 1718925503137,
+    "stop" : 1718925504262,
+    "duration" : 1125
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6169f0c0761893b4",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925458039,
+    "stop" : 1718925459781,
+    "duration" : 1742
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1b334a0e6e214698",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925464995,
+    "stop" : 1718925466620,
+    "duration" : 1625
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "61337e2f6810a1a2",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925462680,
+    "stop" : 1718925464370,
+    "duration" : 1690
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2ac429f9b62c3e48",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925484040,
+    "stop" : 1718925485594,
+    "duration" : 1554
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8e6478be99d5ddc3",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925486203,
+    "stop" : 1718925487722,
+    "duration" : 1519
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "846f343db9f687ca",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925489936,
+    "stop" : 1718925491466,
+    "duration" : 1530
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a7413f5a0d3eb38b",
+  "name" : "TC-01 Open Base Url",
+  "time" : {
+    "start" : 1718925469415,
+    "stop" : 1718925470499,
+    "duration" : 1084
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7d18b79b3df00e31",
+  "name" : "TC-02 Top Menu Navigation",
+  "time" : {
+    "start" : 1718925467207,
+    "stop" : 1718925468823,
+    "duration" : 1616
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]
