@@ -1,12 +1,12 @@
 {
-  "uid" : "6ac5e2223f833714",
+  "uid" : "87297eadab37182e",
   "name" : "testNavigationMenu",
   "fullName" : "com.lumatest.test.NavigationTest.testNavigationMenu",
-  "historyId" : "1481dd3f4f782550a45c80b34375e2cb",
+  "historyId" : "907ac941bdd89e01fa59b2ca6d784455",
   "time" : {
-    "start" : 1718914644082,
-    "stop" : 1718914645318,
-    "duration" : 1236
+    "start" : 1718915183562,
+    "stop" : 1718915184986,
+    "duration" : 1424
   },
   "description" : "verify that the top menu navigation on website functions correctly by ensuring thatclicking on menu items directs the user on correct page",
   "descriptionHtml" : "<p>verify that the top menu navigation on website functions correctly by ensuring thatclicking on menu items directs the user on correct page</p>\n",
@@ -16,35 +16,35 @@
   "beforeStages" : [ {
     "name" : "setupDriver",
     "time" : {
-      "start" : 1718914643517,
-      "stop" : 1718914644082,
-      "duration" : 565
+      "start" : 1718915183005,
+      "stop" : 1718915183562,
+      "duration" : 557
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "name" : "setupDriverManager",
     "time" : {
-      "start" : 1718914637433,
-      "stop" : 1718914639652,
-      "duration" : 2219
+      "start" : 1718915176865,
+      "stop" : 1718915176881,
+      "duration" : 16
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "description" : "verify that the top menu navigation on website functions correctly by ensuring thatclicking on menu items directs the user on correct page",
@@ -52,87 +52,87 @@
     "steps" : [ {
       "name" : "Open BaseUrl",
       "time" : {
-        "start" : 1718914644082,
-        "stop" : 1718914644082,
+        "start" : 1718915183562,
+        "stop" : 1718915183562,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Collect actualUrl, actualTitle",
       "time" : {
-        "start" : 1718914645206,
-        "stop" : 1718914645206,
+        "start" : 1718915184940,
+        "stop" : 1718915184940,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Verify actualUrl as expected",
       "time" : {
-        "start" : 1718914645317,
-        "stop" : 1718914645317,
+        "start" : 1718915184986,
+        "stop" : 1718915184986,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Collect actualTitle as expected",
       "time" : {
-        "start" : 1718914645317,
-        "stop" : 1718914645317,
+        "start" : 1718915184986,
+        "stop" : 1718915184986,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 4,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1718914645322,
-      "stop" : 1718914645381,
-      "duration" : 59
+      "start" : 1718915184988,
+      "stop" : 1718915185061,
+      "duration" : 73
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -145,19 +145,19 @@
     "value" : "testNavigationMenu"
   }, {
     "name" : "parentSuite",
-    "value" : "Chrome"
+    "value" : "Chromium"
   }, {
     "name" : "suite",
-    "value" : "ChromeTest"
+    "value" : "ChromiumTest"
   }, {
     "name" : "subSuite",
     "value" : "com.lumatest.test.NavigationTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1105-366"
+    "value" : "fv-az586-730"
   }, {
     "name" : "thread",
-    "value" : "5916@fv-az1105-366.main(1)"
+    "value" : "1924@fv-az586-730.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -176,16 +176,16 @@
     "value" : "https://magento.softwaretestingboard.com"
   }, {
     "name" : "arg1",
-    "value" : "By.xpath: //nav//a/span[text() = 'Men']"
+    "value" : "By.xpath: //nav//a/span[text() = 'Gear']"
   }, {
     "name" : "arg2",
-    "value" : "https://magento.softwaretestingboard.com/men.html"
+    "value" : "https://magento.softwaretestingboard.com/gear.html"
   }, {
     "name" : "arg3",
-    "value" : "Men"
+    "value" : "Gear"
   }, {
     "name" : "browser",
-    "value" : "chrome"
+    "value" : "chromium"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -196,6 +196,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6ac5e2223f833714.json",
-  "parameterValues" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Men']", "https://magento.softwaretestingboard.com/men.html", "Men", "chrome" ]
+  "source" : "87297eadab37182e.json",
+  "parameterValues" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Gear']", "https://magento.softwaretestingboard.com/gear.html", "Gear", "chromium" ]
 }

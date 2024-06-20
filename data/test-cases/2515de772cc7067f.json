@@ -1,12 +1,12 @@
 {
-  "uid" : "1901cb31471c7ddf",
+  "uid" : "2515de772cc7067f",
   "name" : "TC-03 Verify Product Details on Product Page",
   "fullName" : "com.lumatest.test.ProductPageTest.testProduct",
   "historyId" : "3b9f8dd87bf8c437bc77db8d4d6f7537",
   "time" : {
-    "start" : 1718914668946,
-    "stop" : 1718914671465,
-    "duration" : 2519
+    "start" : 1718915191319,
+    "stop" : 1718915193982,
+    "duration" : 2663
   },
   "description" : "To verify that the product page displays the correct product name and breadcrumb menu text for the 'Driven Backpack'.",
   "descriptionHtml" : "<p>To verify that the product page displays the correct product name and breadcrumb menu text for the 'Driven Backpack'.</p>\n",
@@ -16,24 +16,24 @@
   "beforeStages" : [ {
     "name" : "setupDriver",
     "time" : {
-      "start" : 1718914668420,
-      "stop" : 1718914668946,
-      "duration" : 526
+      "start" : 1718915190780,
+      "stop" : 1718915191319,
+      "duration" : 539
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "name" : "setupDriverManager",
     "time" : {
-      "start" : 1718914655311,
-      "stop" : 1718914655327,
+      "start" : 1718915176865,
+      "stop" : 1718915176881,
       "duration" : 16
     },
     "description" : "",
@@ -41,10 +41,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "description" : "To verify that the product page displays the correct product name and breadcrumb menu text for the 'Driven Backpack'.",
@@ -52,54 +52,54 @@
     "steps" : [ {
       "name" : "Open Base Url",
       "time" : {
-        "start" : 1718914668946,
-        "stop" : 1718914668946,
+        "start" : 1718915191319,
+        "stop" : 1718915191319,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click GearTopMenu.",
       "time" : {
-        "start" : 1718914669629,
-        "stop" : 1718914670199,
-        "duration" : 570
+        "start" : 1718915192373,
+        "stop" : 1718915192768,
+        "duration" : 395
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click Bags Side Menu.",
       "time" : {
-        "start" : 1718914670199,
-        "stop" : 1718914670712,
-        "duration" : 513
+        "start" : 1718915192768,
+        "stop" : 1718915193288,
+        "duration" : 520
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "click Driven Backpack Img",
       "time" : {
-        "start" : 1718914670712,
-        "stop" : 1718914671235,
-        "duration" : 523
+        "start" : 1718915193288,
+        "stop" : 1718915193772,
+        "duration" : 484
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,94 +108,94 @@
         "name" : "productName",
         "value" : "Driven Backpack"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Collect Actual Name Text.",
       "time" : {
-        "start" : 1718914671235,
-        "stop" : 1718914671377,
-        "duration" : 142
+        "start" : 1718915193772,
+        "stop" : 1718915193886,
+        "duration" : 114
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Collect Breadcrumbs Menu Text.",
       "time" : {
-        "start" : 1718914671377,
-        "stop" : 1718914671465,
-        "duration" : 88
+        "start" : 1718915193886,
+        "stop" : 1718915193982,
+        "duration" : 96
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Verify actual 'Driven Backpack' equals to 'Driven Backpack'",
       "time" : {
-        "start" : 1718914671465,
-        "stop" : 1718914671465,
+        "start" : 1718915193982,
+        "stop" : 1718915193982,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Verify actual 'Home Gear Bags Driven Backpack' equals to 'Home Gear Bags Driven Backpack'",
       "time" : {
-        "start" : 1718914671465,
-        "stop" : 1718914671465,
+        "start" : 1718915193982,
+        "stop" : 1718915193982,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 8,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1718914671467,
-      "stop" : 1718914671493,
-      "duration" : 26
+      "start" : 1718915193984,
+      "stop" : 1718915194027,
+      "duration" : 43
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -217,10 +217,10 @@
     "value" : "com.lumatest.test.ProductPageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1105-366"
+    "value" : "fv-az586-730"
   }, {
     "name" : "thread",
-    "value" : "5916@fv-az1105-366.main(1)"
+    "value" : "1924@fv-az586-730.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -253,6 +253,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1901cb31471c7ddf.json",
+  "source" : "2515de772cc7067f.json",
   "parameterValues" : [ "chromium" ]
 }

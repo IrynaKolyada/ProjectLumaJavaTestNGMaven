@@ -1,12 +1,12 @@
 {
-  "uid" : "c926459a97051ff4",
+  "uid" : "b74a0186de4dc131",
   "name" : "TC-03 Verify Product Details on Product Page",
   "fullName" : "com.lumatest.test.ProductPageTest.testProduct",
-  "historyId" : "fb6d3c6f1c887e3023f2e5c7a08d2b49",
+  "historyId" : "dc4b9f5176617637277a0752ab0d3959",
   "time" : {
-    "start" : 1718914652889,
-    "stop" : 1718914655266,
-    "duration" : 2377
+    "start" : 1718915210051,
+    "stop" : 1718915212720,
+    "duration" : 2669
   },
   "description" : "To verify that the product page displays the correct product name and breadcrumb menu text for the 'Driven Backpack'.",
   "descriptionHtml" : "<p>To verify that the product page displays the correct product name and breadcrumb menu text for the 'Driven Backpack'.</p>\n",
@@ -16,35 +16,35 @@
   "beforeStages" : [ {
     "name" : "setupDriver",
     "time" : {
-      "start" : 1718914652330,
-      "stop" : 1718914652889,
-      "duration" : 559
+      "start" : 1718915209513,
+      "stop" : 1718915210051,
+      "duration" : 538
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "name" : "setupDriverManager",
     "time" : {
-      "start" : 1718914637433,
-      "stop" : 1718914639652,
-      "duration" : 2219
+      "start" : 1718915195643,
+      "stop" : 1718915195659,
+      "duration" : 16
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "description" : "To verify that the product page displays the correct product name and breadcrumb menu text for the 'Driven Backpack'.",
@@ -52,54 +52,54 @@
     "steps" : [ {
       "name" : "Open Base Url",
       "time" : {
-        "start" : 1718914652889,
-        "stop" : 1718914652889,
+        "start" : 1718915210051,
+        "stop" : 1718915210051,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click GearTopMenu.",
       "time" : {
-        "start" : 1718914653484,
-        "stop" : 1718914654047,
-        "duration" : 563
+        "start" : 1718915211014,
+        "stop" : 1718915211438,
+        "duration" : 424
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Click Bags Side Menu.",
       "time" : {
-        "start" : 1718914654047,
-        "stop" : 1718914654548,
-        "duration" : 501
+        "start" : 1718915211438,
+        "stop" : 1718915211989,
+        "duration" : 551
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "click Driven Backpack Img",
       "time" : {
-        "start" : 1718914654548,
-        "stop" : 1718914655024,
-        "duration" : 476
+        "start" : 1718915211989,
+        "stop" : 1718915212500,
+        "duration" : 511
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,94 +108,94 @@
         "name" : "productName",
         "value" : "Driven Backpack"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Collect Actual Name Text.",
       "time" : {
-        "start" : 1718914655024,
-        "stop" : 1718914655139,
-        "duration" : 115
+        "start" : 1718915212500,
+        "stop" : 1718915212619,
+        "duration" : 119
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Collect Breadcrumbs Menu Text.",
       "time" : {
-        "start" : 1718914655139,
-        "stop" : 1718914655265,
-        "duration" : 126
+        "start" : 1718915212619,
+        "stop" : 1718915212718,
+        "duration" : 99
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Verify actual 'Driven Backpack' equals to 'Driven Backpack'",
       "time" : {
-        "start" : 1718914655265,
-        "stop" : 1718914655265,
-        "duration" : 0
+        "start" : 1718915212719,
+        "stop" : 1718915212720,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Verify actual 'Home Gear Bags Driven Backpack' equals to 'Home Gear Bags Driven Backpack'",
       "time" : {
-        "start" : 1718914655265,
-        "stop" : 1718914655265,
+        "start" : 1718915212720,
+        "stop" : 1718915212720,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 8,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1718914655267,
-      "stop" : 1718914655311,
-      "duration" : 44
+      "start" : 1718915212721,
+      "stop" : 1718915212762,
+      "duration" : 41
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -208,19 +208,19 @@
     "value" : "testProduct"
   }, {
     "name" : "parentSuite",
-    "value" : "Chrome"
+    "value" : "Edge"
   }, {
     "name" : "suite",
-    "value" : "ChromeTest"
+    "value" : "EdgeTest"
   }, {
     "name" : "subSuite",
     "value" : "com.lumatest.test.ProductPageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1105-366"
+    "value" : "fv-az586-730"
   }, {
     "name" : "thread",
-    "value" : "5916@fv-az1105-366.main(1)"
+    "value" : "1924@fv-az586-730.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -239,7 +239,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome"
+    "value" : "edge"
   } ],
   "links" : [ {
     "name" : "https://magento.softwaretestingboard.com/driven-backpack.html",
@@ -249,18 +249,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "28576752879b0869",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718914634351,
-        "stop" : 1718914637369,
-        "duration" : 3018
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c926459a97051ff4.json",
-  "parameterValues" : [ "chrome" ]
+  "source" : "b74a0186de4dc131.json",
+  "parameterValues" : [ "edge" ]
 }

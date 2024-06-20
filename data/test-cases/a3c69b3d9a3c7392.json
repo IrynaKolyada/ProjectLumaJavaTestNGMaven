@@ -1,12 +1,12 @@
 {
-  "uid" : "b8be20d1b7c19c27",
+  "uid" : "a3c69b3d9a3c7392",
   "name" : "TC-01 Open Base Url",
   "fullName" : "com.lumatest.test.NavigationTest.testOpenBaseUrl",
-  "historyId" : "788bed9124bde1adb8a08e8fd04b5f8",
+  "historyId" : "40ad15018372f4272e4e5010035a1c3c",
   "time" : {
-    "start" : 1718914672043,
-    "stop" : 1718914672731,
-    "duration" : 688
+    "start" : 1718915208535,
+    "stop" : 1718915209468,
+    "duration" : 933
   },
   "description" : "verify that the URL and Title of the application are correct and as expected",
   "descriptionHtml" : "<p>verify that the URL and Title of the application are correct and as expected</p>\n",
@@ -16,19 +16,35 @@
   "beforeStages" : [ {
     "name" : "setupDriver",
     "time" : {
-      "start" : 1718914671493,
-      "stop" : 1718914672043,
-      "duration" : 550
+      "start" : 1718915207993,
+      "stop" : 1718915208535,
+      "duration" : 542
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setupDriverManager",
+    "time" : {
+      "start" : 1718915195643,
+      "stop" : 1718915195659,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "description" : "verify that the URL and Title of the application are correct and as expected",
@@ -36,102 +52,102 @@
     "steps" : [ {
       "name" : "Setup expected results",
       "time" : {
-        "start" : 1718914672043,
-        "stop" : 1718914672043,
+        "start" : 1718915208535,
+        "stop" : 1718915208535,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Open BaseUrl",
       "time" : {
-        "start" : 1718914672043,
-        "stop" : 1718914672043,
+        "start" : 1718915208535,
+        "stop" : 1718915208535,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Collect actualUrl, actualTitle",
       "time" : {
-        "start" : 1718914672693,
-        "stop" : 1718914672693,
+        "start" : 1718915209459,
+        "stop" : 1718915209459,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Verify actualUrl as expected",
       "time" : {
-        "start" : 1718914672730,
-        "stop" : 1718914672730,
+        "start" : 1718915209468,
+        "stop" : 1718915209468,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Collect actualTitle as expected",
       "time" : {
-        "start" : 1718914672730,
-        "stop" : 1718914672730,
+        "start" : 1718915209468,
+        "stop" : 1718915209468,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 5,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1718914672733,
-      "stop" : 1718914672770,
-      "duration" : 37
+      "start" : 1718915209468,
+      "stop" : 1718915209513,
+      "duration" : 45
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -144,19 +160,19 @@
     "value" : "testOpenBaseUrl"
   }, {
     "name" : "parentSuite",
-    "value" : "Smoke"
+    "value" : "Edge"
   }, {
     "name" : "suite",
-    "value" : "Smoke Test Run"
+    "value" : "EdgeTest"
   }, {
     "name" : "subSuite",
     "value" : "com.lumatest.test.NavigationTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1105-366"
+    "value" : "fv-az586-730"
   }, {
     "name" : "thread",
-    "value" : "5916@fv-az1105-366.main(1)"
+    "value" : "1924@fv-az586-730.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -175,7 +191,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome"
+    "value" : "edge"
   } ],
   "links" : [ {
     "name" : "https://magento.softwaretestingboard.com",
@@ -185,26 +201,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "blocker",
-    "retries" : [ {
-      "uid" : "b496fdfe3d9cd4bc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718914651617,
-        "stop" : 1718914652262,
-        "duration" : 645
-      }
-    }, {
-      "uid" : "9e36bd9597c86de5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1718914626588,
-        "stop" : 1718914633080,
-        "duration" : 6492
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b8be20d1b7c19c27.json",
-  "parameterValues" : [ "chrome" ]
+  "source" : "a3c69b3d9a3c7392.json",
+  "parameterValues" : [ "edge" ]
 }
