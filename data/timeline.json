@@ -2,363 +2,363 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "fv-az731-203",
+    "name" : "fv-az653-229",
     "children" : [ {
-      "name" : "6988@fv-az731-203.main(1)",
+      "name" : "1468@fv-az653-229.main(1)",
       "children" : [ {
         "name" : "testNavigationMenu",
-        "uid" : "2c19e42833c11244",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
+        "uid" : "8e6a03481eb509eb",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
         "status" : "passed",
         "time" : {
-          "start" : 1718918710835,
-          "stop" : 1718918712134,
-          "duration" : 1299
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Gear']", "https://magento.softwaretestingboard.com/gear.html", "Gear", "chrome" ]
-      }, {
-        "name" : "testNavigationMenu",
-        "uid" : "21ae057422f7374e",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918747534,
-          "stop" : 1718918748865,
-          "duration" : 1331
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Sale']", "https://magento.softwaretestingboard.com/sale.html", "Sale", "edge" ]
-      }, {
-        "name" : "TC-01 Open Base Url",
-        "uid" : "e0ce47100caf02c",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918749470,
-          "stop" : 1718918750152,
-          "duration" : 682
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "edge" ]
-      }, {
-        "name" : "TC-01 Open Base Url",
-        "uid" : "d757e4939b7e1f89",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918716532,
-          "stop" : 1718918717196,
-          "duration" : 664
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome" ]
-      }, {
-        "name" : "TC-03 Verify Product Details on Product Page",
-        "uid" : "d8fe5a49ccd19e91",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918733604,
-          "stop" : 1718918736123,
-          "duration" : 2519
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chromium" ]
-      }, {
-        "name" : "testNavigationMenu",
-        "uid" : "b211e83058b85df2",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918728517,
-          "stop" : 1718918729754,
-          "duration" : 1237
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Training']", "https://magento.softwaretestingboard.com/training.html", "Training", "chromium" ]
-      }, {
-        "name" : "testNavigationMenu",
-        "uid" : "c398bc2768e7f0cc",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918708880,
-          "stop" : 1718918710253,
-          "duration" : 1373
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Men']", "https://magento.softwaretestingboard.com/men.html", "Men", "chrome" ]
-      }, {
-        "name" : "testNavigationMenu",
-        "uid" : "88414e56d3a493d5",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918714653,
-          "stop" : 1718918715876,
-          "duration" : 1223
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Sale']", "https://magento.softwaretestingboard.com/sale.html", "Sale", "chrome" ]
-      }, {
-        "name" : "testNavigationMenu",
-        "uid" : "29a455f198dc6cd8",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918741895,
-          "stop" : 1718918743223,
-          "duration" : 1328
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Men']", "https://magento.softwaretestingboard.com/men.html", "Men", "edge" ]
-      }, {
-        "name" : "TC-03 Verify Product Details on Product Page",
-        "uid" : "c32afcbda3b0746b",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918717785,
-          "stop" : 1718918720308,
-          "duration" : 2523
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome" ]
-      }, {
-        "name" : "TC-03 Verify Product Details on Product Page",
-        "uid" : "a499024f0a4c756f",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918750778,
-          "stop" : 1718918753281,
-          "duration" : 2503
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "edge" ]
-      }, {
-        "name" : "testNavigationMenu",
-        "uid" : "a57678a7257f199f",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918712738,
-          "stop" : 1718918714080,
-          "duration" : 1342
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Training']", "https://magento.softwaretestingboard.com/training.html", "Training", "chrome" ]
-      }, {
-        "name" : "testNavigationMenu",
-        "uid" : "550c91f4291efc1d",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918704984,
-          "stop" : 1718918706284,
-          "duration" : 1300
+          "start" : 1718919386963,
+          "stop" : 1718919388239,
+          "duration" : 1276
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = \"What's New\"]", "https://magento.softwaretestingboard.com/what-is-new.html", "What's New", "chrome" ]
       }, {
         "name" : "testNavigationMenu",
-        "uid" : "16a62621fcc2079e",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
+        "uid" : "2c45fd9d9aa75acf",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
         "status" : "passed",
         "time" : {
-          "start" : 1718918745652,
-          "stop" : 1718918746912,
-          "duration" : 1260
+          "start" : 1718919426952,
+          "stop" : 1718919428228,
+          "duration" : 1276
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Training']", "https://magento.softwaretestingboard.com/training.html", "Training", "edge" ]
       }, {
         "name" : "testNavigationMenu",
-        "uid" : "7c633f89646caa7f",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
+        "uid" : "a239b97fc8bf179f",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
         "status" : "passed",
         "time" : {
-          "start" : 1718918720914,
-          "stop" : 1718918722201,
-          "duration" : 1287
+          "start" : 1718919396345,
+          "stop" : 1718919397521,
+          "duration" : 1176
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = \"What's New\"]", "https://magento.softwaretestingboard.com/what-is-new.html", "What's New", "chromium" ]
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Sale']", "https://magento.softwaretestingboard.com/sale.html", "Sale", "chrome" ]
       }, {
-        "name" : "testNavigationMenu",
-        "uid" : "c17e53e7637da3ab",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
+        "name" : "TC-01 Open Base Url",
+        "uid" : "784b0afb2726c9ee",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
         "status" : "passed",
         "time" : {
-          "start" : 1718918739930,
-          "stop" : 1718918741303,
-          "duration" : 1373
+          "start" : 1718919413923,
+          "stop" : 1718919414570,
+          "duration" : 647
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Women']", "https://magento.softwaretestingboard.com/women.html", "Women", "edge" ]
+        "parameters" : [ "chromium" ]
       }, {
-        "name" : "testNavigationMenu",
-        "uid" : "b4ba4946f9308eca",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
+        "name" : "TC-03 Verify Product Details on Product Page",
+        "uid" : "323d2f219d7abf09",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
         "status" : "passed",
         "time" : {
-          "start" : 1718918724737,
-          "stop" : 1718918726047,
-          "duration" : 1310
+          "start" : 1718919431898,
+          "stop" : 1718919434288,
+          "duration" : 2390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "acea599baddc38fa",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919419432,
+          "stop" : 1718919420702,
+          "duration" : 1270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = \"What's New\"]", "https://magento.softwaretestingboard.com/what-is-new.html", "What's New", "edge" ]
+      }, {
+        "name" : "TC-01 Open Base Url",
+        "uid" : "fe967bf63ba82059",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919430686,
+          "stop" : 1718919431331,
+          "duration" : 645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "55bdc4123443f4db",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919410109,
+          "stop" : 1718919411377,
+          "duration" : 1268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Training']", "https://magento.softwaretestingboard.com/training.html", "Training", "chromium" ]
+      }, {
+        "name" : "TC-01 Open Base Url",
+        "uid" : "2111c5424585bd9",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919376092,
+          "stop" : 1718919379870,
+          "duration" : 3778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "7580731f053e1946",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919411984,
+          "stop" : 1718919413286,
+          "duration" : 1302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Sale']", "https://magento.softwaretestingboard.com/sale.html", "Sale", "chromium" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "92ea771151d31f9a",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919406280,
+          "stop" : 1718919407547,
+          "duration" : 1267
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Men']", "https://magento.softwaretestingboard.com/men.html", "Men", "chromium" ]
       }, {
         "name" : "testNavigationMenu",
-        "uid" : "c7c3cb749ef8f540",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
+        "uid" : "94e15f61317ea5d8",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
         "status" : "passed",
         "time" : {
-          "start" : 1718918743835,
-          "stop" : 1718918745058,
-          "duration" : 1223
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Gear']", "https://magento.softwaretestingboard.com/gear.html", "Gear", "edge" ]
-      }, {
-        "name" : "TC-03 Verify Product Details on Product Page",
-        "uid" : "ab8f256964f49b80",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918698285,
-          "stop" : 1718918701805,
-          "duration" : 3520
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome" ]
-      }, {
-        "name" : "TC-01 Open Base Url",
-        "uid" : "a5998eaff12d36b9",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918732335,
-          "stop" : 1718918733008,
-          "duration" : 673
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chromium" ]
-      }, {
-        "name" : "testNavigationMenu",
-        "uid" : "8007e5a7d50cbe0e",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918726646,
-          "stop" : 1718918727892,
-          "duration" : 1246
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Gear']", "https://magento.softwaretestingboard.com/gear.html", "Gear", "chromium" ]
-      }, {
-        "name" : "TC-01 Open Base Url",
-        "uid" : "baecbf9b5f495643",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918691338,
-          "stop" : 1718918696755,
-          "duration" : 5417
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome" ]
-      }, {
-        "name" : "TC-01 Open Base Url",
-        "uid" : "f885d570f8911717",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918736716,
-          "stop" : 1718918737390,
-          "duration" : 674
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome" ]
-      }, {
-        "name" : "testNavigationMenu",
-        "uid" : "c93171756f146282",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918722835,
-          "stop" : 1718918724117,
-          "duration" : 1282
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Women']", "https://magento.softwaretestingboard.com/women.html", "Women", "chromium" ]
-      }, {
-        "name" : "testNavigationMenu",
-        "uid" : "90aa4ceb8911ac1e",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1718918706970,
-          "stop" : 1718918708256,
-          "duration" : 1286
+          "start" : 1718919388861,
+          "stop" : 1718919390119,
+          "duration" : 1258
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Women']", "https://magento.softwaretestingboard.com/women.html", "Women", "chrome" ]
       }, {
         "name" : "testNavigationMenu",
-        "uid" : "df64d25815b8999f",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
+        "uid" : "dafc0166e36d4de5",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
         "status" : "passed",
         "time" : {
-          "start" : 1718918738018,
-          "stop" : 1718918739301,
-          "duration" : 1283
+          "start" : 1718919390694,
+          "stop" : 1718919391982,
+          "duration" : 1288
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = \"What's New\"]", "https://magento.softwaretestingboard.com/what-is-new.html", "What's New", "edge" ]
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Men']", "https://magento.softwaretestingboard.com/men.html", "Men", "chrome" ]
+      }, {
+        "name" : "TC-01 Open Base Url",
+        "uid" : "2e1dd448a6652eae",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919418186,
+          "stop" : 1718919418839,
+          "duration" : 653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "TC-01 Open Base Url",
+        "uid" : "96e62ee77dd1feec",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919398147,
+          "stop" : 1718919398813,
+          "duration" : 666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "TC-03 Verify Product Details on Product Page",
+        "uid" : "2780ba22b91e5b8e",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919415130,
+          "stop" : 1718919417598,
+          "duration" : 2468
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
       }, {
         "name" : "testNavigationMenu",
-        "uid" : "a452d73f4c134de9",
-        "parentUid" : "86c52102374d26d92541b00ef685f0be",
+        "uid" : "7b5317683ccf4c85",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
         "status" : "passed",
         "time" : {
-          "start" : 1718918730388,
-          "stop" : 1718918731692,
-          "duration" : 1304
+          "start" : 1718919425016,
+          "stop" : 1718919426327,
+          "duration" : 1311
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Sale']", "https://magento.softwaretestingboard.com/sale.html", "Sale", "chromium" ]
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Gear']", "https://magento.softwaretestingboard.com/gear.html", "Gear", "edge" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "32912a6ef0500255",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919428836,
+          "stop" : 1718919430086,
+          "duration" : 1250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Sale']", "https://magento.softwaretestingboard.com/sale.html", "Sale", "edge" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "d5985b46bff4f7f8",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919394470,
+          "stop" : 1718919395759,
+          "duration" : 1289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Training']", "https://magento.softwaretestingboard.com/training.html", "Training", "chrome" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "3fb89e2ab8a1e9d3",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919421288,
+          "stop" : 1718919422545,
+          "duration" : 1257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Women']", "https://magento.softwaretestingboard.com/women.html", "Women", "edge" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "65e6f8a05ca58b26",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919392574,
+          "stop" : 1718919393855,
+          "duration" : 1281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Gear']", "https://magento.softwaretestingboard.com/gear.html", "Gear", "chrome" ]
+      }, {
+        "name" : "TC-03 Verify Product Details on Product Page",
+        "uid" : "1c3c5b8d32b4a861",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919399407,
+          "stop" : 1718919401915,
+          "duration" : 2508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "c6dd37dff710faac",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919423161,
+          "stop" : 1718919424400,
+          "duration" : 1239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Men']", "https://magento.softwaretestingboard.com/men.html", "Men", "edge" ]
+      }, {
+        "name" : "TC-03 Verify Product Details on Product Page",
+        "uid" : "489262131eb99604",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919381266,
+          "stop" : 1718919384161,
+          "duration" : 2895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "aac2cd04bed551ec",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919408178,
+          "stop" : 1718919409439,
+          "duration" : 1261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Gear']", "https://magento.softwaretestingboard.com/gear.html", "Gear", "chromium" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "ddb98a9581037ee7",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919404413,
+          "stop" : 1718919405666,
+          "duration" : 1253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Women']", "https://magento.softwaretestingboard.com/women.html", "Women", "chromium" ]
+      }, {
+        "name" : "testNavigationMenu",
+        "uid" : "63245a0ee4573903",
+        "parentUid" : "c91eabd2bdc42dc5b603be5f3f22a3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718919402543,
+          "stop" : 1718919403804,
+          "duration" : 1261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = \"What's New\"]", "https://magento.softwaretestingboard.com/what-is-new.html", "What's New", "chromium" ]
       } ],
-      "uid" : "86c52102374d26d92541b00ef685f0be"
+      "uid" : "c91eabd2bdc42dc5b603be5f3f22a3e6"
     } ],
-    "uid" : "fe4a296d24f0880cf332d2e370af628f"
+    "uid" : "164078135f0d90fd493bf823d18c6171"
   } ]
 }
