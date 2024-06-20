@@ -71,13 +71,13 @@ jobs:
         continue-on-error: true
         with:
           ref: gh-pages
-          path: gh-pages/ubuntu-history
+          path: gh-pages
 
       - name: Build Allure test report Ubuntu
         uses: simple-elf/allure-report-action@v1.7
         if: always() && matrix.os == 'ubuntu-latest'
         with:
-          gh_pages: gh-pages/ubuntu-history
+          gh_pages: gh-pages
           allure_history: allure-history
           allure_results: target/allure-results
 
@@ -86,8 +86,8 @@ jobs:
         if: always() && matrix.os == 'ubuntu-latest'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: allure-history/ubuntu-report
+          publish_branch: gh-pages/ubuntu
+          publish_dir: allure-history/ubuntu
 
       - name: Load Allure test report history Windows
         uses: actions/checkout@v4
@@ -95,7 +95,7 @@ jobs:
         continue-on-error: true
         with:
           ref: gh-pages
-          path: gh-pages/windows-history
+          path: gh-pages
 
       - name: Build Allure test report Windows
         if: always() && matrix.os == 'windows-latest'
@@ -103,15 +103,15 @@ jobs:
           curl -o allure-commandline.zip -L "https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.8/allure-commandline-2.13.8.zip"
           Expand-Archive -Path allure-commandline.zip -DestinationPath .
           $env:PATH = "$PWD\allure-2.13.8\bin;$env:PATH"
-          allure generate target/allure-results --clean -o allure-history/windows-report
+          allure generate target/allure-results --clean -o allure-history/windows
 
       - name: Publish Allure test report Windows
         uses: peaceiris/actions-gh-pages@v3
         if: always() && matrix.os == 'windows-latest'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: allure-history/windows-report
+          publish_branch: gh-pages/windows
+          publish_dir: allure-history/windows
 
   
             
