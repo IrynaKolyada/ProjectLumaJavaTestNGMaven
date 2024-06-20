@@ -1,0 +1,201 @@
+{
+  "uid" : "a452d73f4c134de9",
+  "name" : "testNavigationMenu",
+  "fullName" : "com.lumatest.test.NavigationTest.testNavigationMenu",
+  "historyId" : "923cadde1e7d79d3831d962ccac388fa",
+  "time" : {
+    "start" : 1718918730388,
+    "stop" : 1718918731692,
+    "duration" : 1304
+  },
+  "description" : "verify that the top menu navigation on website functions correctly by ensuring thatclicking on menu items directs the user on correct page",
+  "descriptionHtml" : "<p>verify that the top menu navigation on website functions correctly by ensuring thatclicking on menu items directs the user on correct page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupDriver",
+    "time" : {
+      "start" : 1718918729830,
+      "stop" : 1718918730372,
+      "duration" : 542
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setupDriverManager",
+    "time" : {
+      "start" : 1718918720337,
+      "stop" : 1718918720353,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "verify that the top menu navigation on website functions correctly by ensuring thatclicking on menu items directs the user on correct page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open BaseUrl",
+      "time" : {
+        "start" : 1718918730388,
+        "stop" : 1718918730388,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Collect actualUrl, actualTitle",
+      "time" : {
+        "start" : 1718918731618,
+        "stop" : 1718918731618,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify actualUrl as expected",
+      "time" : {
+        "start" : 1718918731692,
+        "stop" : 1718918731692,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Collect actualTitle as expected",
+      "time" : {
+        "start" : 1718918731692,
+        "stop" : 1718918731692,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1718918731699,
+      "stop" : 1718918731770,
+      "duration" : 71
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.lumatest.test.NavigationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.lumatest.test.NavigationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testNavigationMenu"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chromium"
+  }, {
+    "name" : "suite",
+    "value" : "ChromiumTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.lumatest.test.NavigationTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az731-203"
+  }, {
+    "name" : "thread",
+    "value" : "6988@fv-az731-203.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "https://magento.softwaretestingboard.com"
+  }, {
+    "name" : "arg1",
+    "value" : "By.xpath: //nav//a/span[text() = 'Sale']"
+  }, {
+    "name" : "arg2",
+    "value" : "https://magento.softwaretestingboard.com/sale.html"
+  }, {
+    "name" : "arg3",
+    "value" : "Sale"
+  }, {
+    "name" : "browser",
+    "value" : "chromium"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a452d73f4c134de9.json",
+  "parameterValues" : [ "https://magento.softwaretestingboard.com", "By.xpath: //nav//a/span[text() = 'Sale']", "https://magento.softwaretestingboard.com/sale.html", "Sale", "chromium" ]
+}
