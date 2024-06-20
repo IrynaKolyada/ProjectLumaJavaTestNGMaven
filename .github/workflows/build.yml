@@ -57,9 +57,6 @@ jobs:
         if: ${{ matrix.os != 'ubuntu-latest' }}
         run: mvn -B package --file pom.xml
 
-      #      - name: Test with Maven
-      #        run: mvn test
-
       - name: Test Reporter
         uses: dorny/test-reporter@v1.9.1
         if: success() || failure()
@@ -68,19 +65,19 @@ jobs:
           path: target/surefire-reports/TEST-*.xml
           reporter: java-junit
 
-      - name: Load Allure test report history
+      - name: Load Allure test report history Ubuntu
         uses: actions/checkout@v4
         if: always()
         continue-on-error: true
         with:
           ref: gh-pages
-          path: gh-pages
+          path: gh-pages/ubuntu-history
 
-      - name: Build Allure test report
+      - name: Build Allure test report Ubuntu
         uses: simple-elf/allure-report-action@v1.7
         if: always() && matrix.os == 'ubuntu-latest'
         with:
-          gh_pages: gh-pages
+          gh_pages: gh-pages/ubuntu-history
           allure_history: allure-history
           allure_results: target/allure-results
 
@@ -90,7 +87,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
+          publish_dir: allure-history/ubuntu-report
 
       - name: Load Allure test report history Windows
         uses: actions/checkout@v4
@@ -98,7 +95,7 @@ jobs:
         continue-on-error: true
         with:
           ref: gh-pages
-          path: gh-pages
+          path: gh-pages/windows-history
 
       - name: Build Allure test report Windows
         if: always() && matrix.os == 'windows-latest'
@@ -114,7 +111,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
+          publish_dir: allure-history/windows-report
 
   
             
