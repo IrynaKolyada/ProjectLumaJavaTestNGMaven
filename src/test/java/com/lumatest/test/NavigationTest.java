@@ -42,8 +42,7 @@ public class NavigationTest extends BaseTest {
     @Severity(SeverityLevel.CRITICAL)
     @Description("verify that the top menu navigation on website functions correctly by ensuring that"
             + "clicking on menu items directs the user on correct page")
-    @Link(TestData.BASE_URL)
-    public void testNavigationMenu(String baseUrl, By nameOfLocator, String expectedUrl, String expectedTitle) {
+        public void testNavigationMenu(String baseUrl, By nameOfLocator, String expectedUrl, String expectedTitle) {
 
         Allure.step("Open BaseUrl");
         getDriver().get(baseUrl);
