@@ -87,7 +87,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: gh-pages/allure-history/ubuntu-report
+          publish_dir: allure-history/ubuntu-report
 
       - name: Load Allure test report history Windows
         uses: actions/checkout@v4
@@ -103,7 +103,7 @@ jobs:
           curl -o allure-commandline.zip -L "https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.8/allure-commandline-2.13.8.zip"
           Expand-Archive -Path allure-commandline.zip -DestinationPath .
           $env:PATH = "$PWD\allure-2.13.8\bin;$env:PATH"
-          allure generate target/allure-results --clean -o allure-history/windows
+          allure generate target/allure-results --clean -o allure-history/windows-report
 
       - name: Publish Allure test report Windows
         uses: peaceiris/actions-gh-pages@v3
@@ -111,7 +111,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: gh-pages/allure-history/windows-report
+          publish_dir: allure-history/windows-report
 
   
             
