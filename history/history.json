@@ -2,100 +2,95 @@
   "792b3fabc6892af0864dbd7ed30ecd74" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bf955a03809bf037",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = 'Women']\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2a74950f0c55f877ab58aa2bccb642fb, findElement {using=xpath, value=//nav//a/span[text() = 'Women']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56600}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56600/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2a74950f0c55f877ab58aa2bccb642fb",
+      "uid" : "bdf4e8c83f8b77",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914276170,
-        "stop" : 1718914276465,
-        "duration" : 295
+        "start" : 1718914675179,
+        "stop" : 1718914676383,
+        "duration" : 1204
       }
     } ]
   },
   "788bed9124bde1adb8a08e8fd04b5f8" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "334875d1caf3a4e0",
-      "status" : "failed",
-      "statusDetails" : "expected [Home Page] but found [There has been an error processing your request]",
+      "uid" : "b8be20d1b7c19c27",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914274391,
-        "stop" : 1718914274700,
-        "duration" : 309
+        "start" : 1718914672043,
+        "stop" : 1718914672731,
+        "duration" : 688
       }
     } ]
   },
   "f21d5e89206e3f351666bc0277c38701" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2d347fde9d454010",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = \"What's New\"]\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ee530335a2a11dfe61acb5e41f43e289, findElement {using=xpath, value=//nav//a/span[text() = \"What's New\"]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56339/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ee530335a2a11dfe61acb5e41f43e289",
+      "uid" : "937d6702035c7e3c",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914259755,
-        "stop" : 1718914260181,
-        "duration" : 426
+        "start" : 1718914640245,
+        "stop" : 1718914641471,
+        "duration" : 1226
       }
     } ]
   },
   "d6a5ff9226cb1582d6724c95e712b960" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5662b4dba01b9c02",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = \"What's New\"]\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9238fee67fe16011b2a68b55bc923622, findElement {using=xpath, value=//nav//a/span[text() = \"What's New\"]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56586/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9238fee67fe16011b2a68b55bc923622",
+      "uid" : "35c8ca7b9e35240",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914275287,
-        "stop" : 1718914275555,
-        "duration" : 268
+        "start" : 1718914673322,
+        "stop" : 1718914674586,
+        "duration" : 1264
       }
     } ]
   },
   "5e58f643297c7df45004f9cced71c12c" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dd6623bdf43ab8",
-      "status" : "failed",
-      "statusDetails" : "expected [Home Page] but found [There has been an error processing your request]",
+      "uid" : "724d2fb3b603f217",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914272637,
-        "stop" : 1718914272927,
-        "duration" : 290
+        "start" : 1718914667696,
+        "stop" : 1718914668342,
+        "duration" : 646
       }
     } ]
   },
@@ -109,12 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "75fcd0750e904d34",
+      "uid" : "6958f81b5140e12b",
       "status" : "passed",
       "time" : {
-        "start" : 1718914277046,
-        "stop" : 1718914278447,
-        "duration" : 1401
+        "start" : 1718914677002,
+        "stop" : 1718914678312,
+        "duration" : 1310
       }
     } ]
   },
@@ -128,12 +123,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bf28f1e1ae3d7de4",
+      "uid" : "f6c5faf0f51ba1e5",
       "status" : "passed",
       "time" : {
-        "start" : 1718914281063,
-        "stop" : 1718914282282,
-        "duration" : 1219
+        "start" : 1718914681136,
+        "stop" : 1718914682327,
+        "duration" : 1191
       }
     } ]
   },
@@ -147,52 +142,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6b4ce3b67e6f92c7",
+      "uid" : "89c344170d88a8aa",
       "status" : "passed",
       "time" : {
-        "start" : 1718914284870,
-        "stop" : 1718914285612,
-        "duration" : 742
+        "start" : 1718914684787,
+        "stop" : 1718914685431,
+        "duration" : 644
       }
     } ]
   },
   "ae7ee95916531b97ca9f89ff71407d05" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c6a4d849af190781",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = \"What's New\"]\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d924cdb5e1208f6fe6e173fff93ce160, findElement {using=xpath, value=//nav//a/span[text() = \"What's New\"]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56461}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56461/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d924cdb5e1208f6fe6e173fff93ce160",
+      "uid" : "79a5e7950eea2b47",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914267472,
-        "stop" : 1718914267768,
-        "duration" : 296
+        "start" : 1718914655856,
+        "stop" : 1718914657077,
+        "duration" : 1221
       }
     } ]
   },
   "896c3a27ae6a4908f3b23d66c6e9d81c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "647cc38e18d0430a",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = 'Training']\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [18ba795ca7c89b95171835738b82ef58, findElement {using=xpath, value=//nav//a/span[text() = 'Training']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56517/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 18ba795ca7c89b95171835738b82ef58",
+      "uid" : "95f8f16f7b55dad",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914270921,
-        "stop" : 1718914271222,
-        "duration" : 301
+        "start" : 1718914664085,
+        "stop" : 1718914665277,
+        "duration" : 1192
       }
     } ]
   },
@@ -206,32 +199,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "96c8b1f65ff86faa",
+      "uid" : "9af77944aa0ab6e0",
       "status" : "passed",
       "time" : {
-        "start" : 1718914287744,
-        "stop" : 1718914291164,
-        "duration" : 3420
+        "start" : 1718914686020,
+        "stop" : 1718914688422,
+        "duration" : 2402
       }
     } ]
   },
   "39504b2eaf176fb62e1f41c87b8409d1" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "977be8e44c6c0917",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = 'Training']\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [770fd7ca695715b174aaa76f74c600f3, findElement {using=xpath, value=//nav//a/span[text() = 'Training']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56395}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56395/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 770fd7ca695715b174aaa76f74c600f3",
+      "uid" : "9efcfc33ed76cf12",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914263633,
-        "stop" : 1718914263941,
-        "duration" : 308
+        "start" : 1718914647970,
+        "stop" : 1718914649200,
+        "duration" : 1230
+      }
+    } ]
+  },
+  "1481dd3f4f782550a45c80b34375e2cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ac5e2223f833714",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718914644082,
+        "stop" : 1718914645318,
+        "duration" : 1236
       }
     } ]
   },
@@ -245,152 +256,145 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6361f1413151e2a0",
+      "uid" : "a38f0531a815b24e",
       "status" : "passed",
       "time" : {
-        "start" : 1718914282870,
-        "stop" : 1718914284232,
-        "duration" : 1362
-      }
-    } ]
-  },
-  "1481dd3f4f782550a45c80b34375e2cb" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e7a2c3469e68649",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = 'Men']\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e4d7b4aac5277a87c73ae9b16e180258, findElement {using=xpath, value=//nav//a/span[text() = 'Men']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56367}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56367/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e4d7b4aac5277a87c73ae9b16e180258",
-      "time" : {
-        "start" : 1718914261630,
-        "stop" : 1718914262035,
-        "duration" : 405
+        "start" : 1718914682921,
+        "stop" : 1718914684184,
+        "duration" : 1263
       }
     } ]
   },
   "907ac941bdd89e01fa59b2ca6d784455" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b9bbaacc00b06ef6",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = 'Gear']\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6a6077eeb8b7a663390cb9ebb259cf6d, findElement {using=xpath, value=//nav//a/span[text() = 'Gear']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56503}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56503/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 6a6077eeb8b7a663390cb9ebb259cf6d",
+      "uid" : "a3698e75bf1f6e9",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914270036,
-        "stop" : 1718914270299,
-        "duration" : 263
+        "start" : 1718914661354,
+        "stop" : 1718914662576,
+        "duration" : 1222
       }
     } ]
   },
   "fb6d3c6f1c887e3023f2e5c7a08d2b49" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "de41ff5e348178c2",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Gear\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a7614231435b63b3bcb6a3d8cae943ed, findElement {using=link text, value=Gear}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56437}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56437/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a7614231435b63b3bcb6a3d8cae943ed",
+      "uid" : "c926459a97051ff4",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914266519,
-        "stop" : 1718914266825,
-        "duration" : 306
+        "start" : 1718914652889,
+        "stop" : 1718914655266,
+        "duration" : 2377
       }
     } ]
   },
   "3b9f8dd87bf8c437bc77db8d4d6f7537" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4bd2cac76efbf652",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Gear\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a676c58afca0bc62efda2351851832be, findElement {using=link text, value=Gear}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56559/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a676c58afca0bc62efda2351851832be",
+      "uid" : "1901cb31471c7ddf",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914273510,
-        "stop" : 1718914273791,
-        "duration" : 281
+        "start" : 1718914668946,
+        "stop" : 1718914671465,
+        "duration" : 2519
       }
     } ]
   },
   "f2b52bec4bde048e1e07ffccb219a6c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c6862db8751270f",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = 'Sale']\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [08845fbe941a42e0e8b09f22bc4e24d5, findElement {using=xpath, value=//nav//a/span[text() = 'Sale']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56409/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 08845fbe941a42e0e8b09f22bc4e24d5",
+      "uid" : "52ab63149e48e749",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914264555,
-        "stop" : 1718914264975,
-        "duration" : 420
+        "start" : 1718914649789,
+        "stop" : 1718914650999,
+        "duration" : 1210
       }
     } ]
   },
   "8dc3237408eb0514d924142463a336ca" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b3b19160214e8d67",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = 'Women']\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [abac5c1286b912a64663693df4f512bb, findElement {using=xpath, value=//nav//a/span[text() = 'Women']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56353/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: abac5c1286b912a64663693df4f512bb",
+      "uid" : "d4591b3da327aaa",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914260752,
-        "stop" : 1718914261039,
-        "duration" : 287
+        "start" : 1718914642103,
+        "stop" : 1718914643444,
+        "duration" : 1341
       }
     } ]
   },
   "fc48f37d217ad56fee7ada105d69a4cb" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fb741fe202a2b2d0",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = 'Gear']\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f1cd61125c168ae3e72a08c47c316403, findElement {using=xpath, value=//nav//a/span[text() = 'Gear']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56381}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56381/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f1cd61125c168ae3e72a08c47c316403",
+      "uid" : "86d6a184405f975",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914262637,
-        "stop" : 1718914263035,
-        "duration" : 398
+        "start" : 1718914646105,
+        "stop" : 1718914647296,
+        "duration" : 1191
+      }
+    } ]
+  },
+  "923cadde1e7d79d3831d962ccac388fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5ed3af2d336b6f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1718914665890,
+        "stop" : 1718914667133,
+        "duration" : 1243
       }
     } ]
   },
@@ -404,72 +408,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66ef31de48e97179",
+      "uid" : "e7f2d12d963f1bdf",
       "status" : "passed",
       "time" : {
-        "start" : 1718914279037,
-        "stop" : 1718914280489,
-        "duration" : 1452
-      }
-    } ]
-  },
-  "923cadde1e7d79d3831d962ccac388fa" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2e77f4ab13d96dd7",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = 'Sale']\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d02dc3868a6a6b2173e223fbe469f130, findElement {using=xpath, value=//nav//a/span[text() = 'Sale']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56531}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56531/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d02dc3868a6a6b2173e223fbe469f130",
-      "time" : {
-        "start" : 1718914271803,
-        "stop" : 1718914272071,
-        "duration" : 268
+        "start" : 1718914678903,
+        "stop" : 1718914680524,
+        "duration" : 1621
       }
     } ]
   },
   "c82dfcb0b73a06a927a3b825faa58bf" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "10c90b9f16c6ae11",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = 'Men']\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3ef69d925d17a57029649941b94504f7, findElement {using=xpath, value=//nav//a/span[text() = 'Men']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56489/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3ef69d925d17a57029649941b94504f7",
+      "uid" : "959c315c85d8573a",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914269199,
-        "stop" : 1718914269458,
-        "duration" : 259
+        "start" : 1718914659522,
+        "stop" : 1718914660754,
+        "duration" : 1232
       }
     } ]
   },
   "8ea5c8eeb2308cce92a651bbd1e1fefb" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7f9a148d55eafa02",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//nav//a/span[text() = 'Women']\"}\n  (Session info: chrome-headless-shell=125.0.6422.142)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ceaa5e163e0a0f36e2814a8f9a9cc6c0, findElement {using=xpath, value=//nav//a/span[text() = 'Women']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56475}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56475/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ceaa5e163e0a0f36e2814a8f9a9cc6c0",
+      "uid" : "63d0590c5c870bae",
+      "status" : "passed",
       "time" : {
-        "start" : 1718914268371,
-        "stop" : 1718914268630,
-        "duration" : 259
+        "start" : 1718914657687,
+        "stop" : 1718914658924,
+        "duration" : 1237
       }
     } ]
   }
