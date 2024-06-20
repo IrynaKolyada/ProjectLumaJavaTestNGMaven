@@ -1,240 +1,240 @@
 [ {
-  "uid" : "fe967bf63ba82059",
+  "uid" : "86e91a255141479",
+  "name" : "testNavigationMenu",
+  "time" : {
+    "start" : 1718919897506,
+    "stop" : 1718919898707,
+    "duration" : 1201
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e07b1211fac9c174",
   "name" : "TC-01 Open Base Url",
   "time" : {
-    "start" : 1718919430686,
-    "stop" : 1718919431331,
-    "duration" : 645
+    "start" : 1718919923747,
+    "stop" : 1718919924442,
+    "duration" : 695
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "dafc0166e36d4de5",
+  "uid" : "84303a7ea71c64ce",
   "name" : "testNavigationMenu",
   "time" : {
-    "start" : 1718919390694,
-    "stop" : 1718919391982,
-    "duration" : 1288
+    "start" : 1718919934861,
+    "stop" : 1718919936204,
+    "duration" : 1343
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "7b5317683ccf4c85",
-  "name" : "testNavigationMenu",
-  "time" : {
-    "start" : 1718919425016,
-    "stop" : 1718919426327,
-    "duration" : 1311
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "2c45fd9d9aa75acf",
-  "name" : "testNavigationMenu",
-  "time" : {
-    "start" : 1718919426952,
-    "stop" : 1718919428228,
-    "duration" : 1276
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "c6dd37dff710faac",
-  "name" : "testNavigationMenu",
-  "time" : {
-    "start" : 1718919423161,
-    "stop" : 1718919424400,
-    "duration" : 1239
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "8e6a03481eb509eb",
-  "name" : "testNavigationMenu",
-  "time" : {
-    "start" : 1718919386963,
-    "stop" : 1718919388239,
-    "duration" : 1276
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "d5985b46bff4f7f8",
-  "name" : "testNavigationMenu",
-  "time" : {
-    "start" : 1718919394470,
-    "stop" : 1718919395759,
-    "duration" : 1289
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "55bdc4123443f4db",
-  "name" : "testNavigationMenu",
-  "time" : {
-    "start" : 1718919410109,
-    "stop" : 1718919411377,
-    "duration" : 1268
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "65e6f8a05ca58b26",
-  "name" : "testNavigationMenu",
-  "time" : {
-    "start" : 1718919392574,
-    "stop" : 1718919393855,
-    "duration" : 1281
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "32912a6ef0500255",
-  "name" : "testNavigationMenu",
-  "time" : {
-    "start" : 1718919428836,
-    "stop" : 1718919430086,
-    "duration" : 1250
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "2780ba22b91e5b8e",
-  "name" : "TC-03 Verify Product Details on Product Page",
-  "time" : {
-    "start" : 1718919415130,
-    "stop" : 1718919417598,
-    "duration" : 2468
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3fb89e2ab8a1e9d3",
-  "name" : "testNavigationMenu",
-  "time" : {
-    "start" : 1718919421288,
-    "stop" : 1718919422545,
-    "duration" : 1257
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "1c3c5b8d32b4a861",
-  "name" : "TC-03 Verify Product Details on Product Page",
-  "time" : {
-    "start" : 1718919399407,
-    "stop" : 1718919401915,
-    "duration" : 2508
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "323d2f219d7abf09",
-  "name" : "TC-03 Verify Product Details on Product Page",
-  "time" : {
-    "start" : 1718919431898,
-    "stop" : 1718919434288,
-    "duration" : 2390
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aac2cd04bed551ec",
-  "name" : "testNavigationMenu",
-  "time" : {
-    "start" : 1718919408178,
-    "stop" : 1718919409439,
-    "duration" : 1261
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "784b0afb2726c9ee",
+  "uid" : "4ef3991cd924e17d",
   "name" : "TC-01 Open Base Url",
   "time" : {
-    "start" : 1718919413923,
-    "stop" : 1718919414570,
-    "duration" : 647
+    "start" : 1718919918630,
+    "stop" : 1718919919384,
+    "duration" : 754
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "a239b97fc8bf179f",
+  "uid" : "878c92566214d075",
   "name" : "testNavigationMenu",
   "time" : {
-    "start" : 1718919396345,
-    "stop" : 1718919397521,
-    "duration" : 1176
+    "start" : 1718919888960,
+    "stop" : 1718919890324,
+    "duration" : 1364
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "63245a0ee4573903",
+  "uid" : "bcf4669105d3dba6",
   "name" : "testNavigationMenu",
   "time" : {
-    "start" : 1718919402543,
-    "stop" : 1718919403804,
-    "duration" : 1261
+    "start" : 1718919925033,
+    "stop" : 1718919926384,
+    "duration" : 1351
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "7580731f053e1946",
+  "uid" : "1de0776e5873b178",
   "name" : "testNavigationMenu",
   "time" : {
-    "start" : 1718919411984,
-    "stop" : 1718919413286,
-    "duration" : 1302
+    "start" : 1718919910514,
+    "stop" : 1718919911846,
+    "duration" : 1332
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "ddb98a9581037ee7",
+  "uid" : "36fa1cf4f3d6379c",
   "name" : "testNavigationMenu",
   "time" : {
-    "start" : 1718919404413,
-    "stop" : 1718919405666,
-    "duration" : 1253
+    "start" : 1718919916639,
+    "stop" : 1718919917949,
+    "duration" : 1310
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "2e1dd448a6652eae",
+  "uid" : "f438aa61b04b3265",
+  "name" : "testNavigationMenu",
+  "time" : {
+    "start" : 1718919926985,
+    "stop" : 1718919928384,
+    "duration" : 1399
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1c10d53cde4f3a07",
+  "name" : "testNavigationMenu",
+  "time" : {
+    "start" : 1718919893210,
+    "stop" : 1718919894725,
+    "duration" : 1515
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8e7476ae4b75843e",
+  "name" : "testNavigationMenu",
+  "time" : {
+    "start" : 1718919930898,
+    "stop" : 1718919932196,
+    "duration" : 1298
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "70131198b91ef41e",
+  "name" : "TC-03 Verify Product Details on Product Page",
+  "time" : {
+    "start" : 1718919902759,
+    "stop" : 1718919906001,
+    "duration" : 3242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52fac88a2060021",
+  "name" : "TC-03 Verify Product Details on Product Page",
+  "time" : {
+    "start" : 1718919919999,
+    "stop" : 1718919923113,
+    "duration" : 3114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85bc337f00b0b1ad",
+  "name" : "testNavigationMenu",
+  "time" : {
+    "start" : 1718919928966,
+    "stop" : 1718919930352,
+    "duration" : 1386
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "df3a5ceeebb73b92",
+  "name" : "testNavigationMenu",
+  "time" : {
+    "start" : 1718919908500,
+    "stop" : 1718919909857,
+    "duration" : 1357
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8fdf44c71f75dd34",
+  "name" : "testNavigationMenu",
+  "time" : {
+    "start" : 1718919895340,
+    "stop" : 1718919896878,
+    "duration" : 1538
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f68fe242f56e0fe1",
+  "name" : "testNavigationMenu",
+  "time" : {
+    "start" : 1718919899289,
+    "stop" : 1718919900789,
+    "duration" : 1500
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b90e0bb7d7ada422",
+  "name" : "testNavigationMenu",
+  "time" : {
+    "start" : 1718919932809,
+    "stop" : 1718919934248,
+    "duration" : 1439
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c56706ad9e182979",
   "name" : "TC-01 Open Base Url",
   "time" : {
-    "start" : 1718919418186,
-    "stop" : 1718919418839,
-    "duration" : 653
+    "start" : 1718919936766,
+    "stop" : 1718919937508,
+    "duration" : 742
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "acea599baddc38fa",
+  "uid" : "1e30d2bdbc26aca2",
   "name" : "testNavigationMenu",
   "time" : {
-    "start" : 1718919419432,
-    "stop" : 1718919420702,
-    "duration" : 1270
+    "start" : 1718919891216,
+    "stop" : 1718919892648,
+    "duration" : 1432
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "92ea771151d31f9a",
+  "uid" : "e8d4bd8a022681cb",
+  "name" : "TC-03 Verify Product Details on Product Page",
+  "time" : {
+    "start" : 1718919938099,
+    "stop" : 1718919941184,
+    "duration" : 3085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d358358535760f53",
   "name" : "testNavigationMenu",
   "time" : {
-    "start" : 1718919406280,
-    "stop" : 1718919407547,
-    "duration" : 1267
+    "start" : 1718919906652,
+    "stop" : 1718919907895,
+    "duration" : 1243
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "94e15f61317ea5d8",
+  "uid" : "8c69659876a82449",
   "name" : "testNavigationMenu",
   "time" : {
-    "start" : 1718919388861,
-    "stop" : 1718919390119,
-    "duration" : 1258
+    "start" : 1718919914448,
+    "stop" : 1718919915973,
+    "duration" : 1525
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c93720fd505b290d",
+  "name" : "testNavigationMenu",
+  "time" : {
+    "start" : 1718919912497,
+    "stop" : 1718919913850,
+    "duration" : 1353
   },
   "status" : "passed",
   "severity" : "critical"
