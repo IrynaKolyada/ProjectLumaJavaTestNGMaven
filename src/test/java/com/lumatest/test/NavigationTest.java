@@ -31,7 +31,7 @@ public class NavigationTest extends BaseTest {
         Assert.assertEquals(actualTitle, expectedTitle);
     }
 
-    @Test(dataProvider = "navigationMenuData",  dataProviderClass = TestData.class)
+    @Test(dataProvider = "navigationMenuData",  dataProviderClass = TestData.class, groups = {"smoke"})
     @Severity(SeverityLevel.CRITICAL)
     @Description("verify that the top menu navigation on website functions correctly by ensuring that"
             + "clicking on menu items directs the user on correct page")
