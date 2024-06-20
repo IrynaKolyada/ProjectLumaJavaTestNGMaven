@@ -103,7 +103,7 @@ jobs:
           curl -o allure-commandline.zip -L "https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.8/allure-commandline-2.13.8.zip"
           Expand-Archive -Path allure-commandline.zip -DestinationPath .
           $env:PATH = "$PWD\allure-2.13.8\bin;$env:PATH"
-          allure generate target/allure-results --clean -o allure-history
+          allure generate target/allure-results --clean -o allure-history/windows
 
       - name: Publish Allure test report Windows
         uses: peaceiris/actions-gh-pages@v3
