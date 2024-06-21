@@ -51,7 +51,7 @@ jobs:
 
       - name: Test Framework
         if: ${{ matrix.os == 'ubuntu-latest' }}
-        run: mvn clean test -Dtest=FrameworkTest
+        run: mvn clean test -Dtest=NavigationTest
 
       - name: Cross Browser Testing
         if: ${{ matrix.os == 'ubuntu-latest' }}
